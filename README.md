@@ -29,6 +29,10 @@ One list feeding two pages. Each entry has a `theme` (`foundations`, `methods`, 
 
 House format: authors as `Surname, A. B., & Surname, C. D.`, titles in sentence case, en dashes in page ranges, and the DOI as a full `https://doi.org/...` address. The title links to the DOI automatically. Full instructions are at the top of the file.
 
+### `_data/news.yml` — news and updates
+
+Short items shown at the top of the News and events page: a date, a title, one or two sentences, and an optional link. The page sorts by date, newest first.
+
 ### `_events/` — talks and workshops
 
 One file per event, not a single list. To add an event, click Add file → Create new file inside `_events/`, name it something like `2026-11-mark-sheen.md`, and copy the top of an existing file:

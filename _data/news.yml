@@ -1,0 +1,16 @@
+# PACT Lab — news and updates
+#
+# HOW TO EDIT
+#   Newest first is not required; the page sorts by date. Each item has:
+#     date   YYYY-MM-DD
+#     title  one line
+#     body   one or two sentences
+#     url    optional link, shown as "Read more"
+#
+#   To ADD one: copy a block, keep the indentation exactly.
+#   Anything with an apostrophe or colon must stay inside the double quotes.
+
+items:
+  - date: 2026-08-03
+    title: "Imperial Global Connect Fund award for a PERC–PACT training partnership"
+    body: "The Imperial Global Connect Fund has awarded £7,935 to Professor Helen Ward at Imperial College London for 'Building Patient and Public Involvement and Engagement (PPIE) capacity in Singapore: An Imperial PERC–NUS PACT partnership for community-centred population and clinical health research'. The award supports work with the Patient Experience Research Centre at Imperial on training materials for researchers and for patients and the public, and runs to July 2027."

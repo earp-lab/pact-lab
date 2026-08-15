@@ -1,0 +1,20 @@
+{%- assign news = site.data.news.items | sort: "date" | reverse -%}
+{%- if news.size > 0 %}
+<section class="tinted newsband">
+  <div class="wrap">
+    <p class="eyebrow">News and updates</p>
+    <div class="newslist">
+      {%- for n in news %}
+      <article class="newsitem">
+        <p class="newsdate">{{ n.date | date: "%-d %B %Y" }}</p>
+        <h3>{{ n.title }}</h3>
+        <p>{{ n.body }}</p>
+        {%- if n.url %}
+        <p><a class="profile" href="{{ n.url }}">Read more &rarr;</a></p>
+        {%- endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

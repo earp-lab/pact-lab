@@ -351,3 +351,16 @@
   .methodsplit{display:grid;grid-template-columns:1fr 1fr;gap:40px}
   @media(max-width:820px){.methodsplit{grid-template-columns:1fr;gap:28px}}
   .methodsplit .subsechead{font-size:22px}
+
+  /* News band on the events page */
+  section.newsband{padding:44px 0}
+  .newslist{display:grid;gap:18px;max-width:62em}
+  .newsitem{background:var(--white);border-left:4px solid var(--orange);padding:20px 24px}
+  .newsitem .newsdate{
+    font-size:11.5px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--orange);margin-bottom:7px;
+  }
+  .newsitem h3{font-size:20px;margin-bottom:8px}
+  .newsitem p{font-size:15px;line-height:1.6;color:var(--ink-soft)}
+  .bandhead{font-size:clamp(24px,3vw,30px);margin-bottom:28px}
+  .hero .expansion{font-size:18.5px;color:var(--ink);margin-bottom:26px}
