@@ -74,6 +74,7 @@ steering:
       profile: "https://sph.nus.edu.sg/faculty-directory/alec-morton/"
     - name: "Elaine Tan Hwee Kee"
       initials: "ET"
+      photo: "people/elaine-tan-hwee-kee.jpg"
       role: "Steering Committee"
       affiliation: "Assistant Director, Clinician Scientist Academy, Dean's Office, NUS Yong Loo Lin School of Medicine"
       profile: "https://medicine.nus.edu.sg/csa/"
@@ -178,7 +179,7 @@ collaborators:
       profile: "https://www.nuh.com.sg/care-at-nuh/find-a-doctor/doctor-details/Aishworiya_Ramkumar"
 
 advisors:
-  label: "Advisors"
+  label: "Senior Advisors"
   members:
     - name: "Chong Yap Seng"
       initials: "CYS"
@@ -217,3 +218,9 @@ advisors:
       role: "Senior Advisor"
       affiliation: "Professor of Neuroscience &amp; Society, University of Oxford; Co-Director, Oxford Wellcome Platform in Transformative, Inclusive Bioethics (ANTITHESES)"
       profile: "https://www.psych.ox.ac.uk/team/ilina-singh"
+    - name: "Mark Sheehan"
+      initials: "MS"
+      photo: "people/mark-sheehan.jpg"
+      role: "Senior Advisor"
+      affiliation: "Professor of Bioethics, Ethox Centre, University of Oxford; Research Fellow, Uehiro Oxford Institute; NIHR Biomedical Research Centre Oxford Ethics Fellow"
+      profile: "https://www.ethox.ox.ac.uk/people/mark-sheehan"

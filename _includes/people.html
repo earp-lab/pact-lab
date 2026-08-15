@@ -1,5 +1,5 @@
 <section class="people" id="people">
-{% include people-head.html %}
+  <div class="wrap">
 
   {%- assign groups = "leadership,steering" | split: "," -%}
   {%- for key in groups -%}
@@ -44,4 +44,5 @@
     </div>
   {%- endfor %}
 
-{% include contact.html %}
+  </div>
+</section>
