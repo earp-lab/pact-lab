@@ -44,9 +44,9 @@ sections:
     intro: "How to request PACT's support and what to expect."
     items:
       - type: "Service information"
-        title: "Service Menu and Access"
-        blurb: "How research teams can request PACT's support, what services are available, and how PPIE can be costed into grant budgets."
-        pending: "Coming soon"
+        title: "What we offer, and when"
+        blurb: "What the Lab can support now, what follows in the first year, and what follows in the second, with guidance on requesting support and costing involvement into grants."
+        url: "/services/"
       - type: "Method"
         title: "The CREP methodology"
         blurb: "Collective Reflective Equilibrium in Practice: how public input is taken from data to defensible policy and translation recommendations."

@@ -60,7 +60,7 @@ Grouped into sections. Each item has a type label, title, blurb, and either a li
 
 ## Everything else
 
-The site has nine pages: the home page, `/publications/`, `/publications/outputs/`, `/events/`, `/resources/`, `/people/`, `/contact/`, `/hops/`, and `/methods/crep/`. Each page file (`index.html`, `publications.html`, `outputs.html`, `events.html`, `resources.html`, `people.html`, `contact.html`, `hops.html`, `crep.html`) is short and only sets the title and pulls in the pieces below.
+The site has ten pages: the home page, `/publications/`, `/publications/outputs/`, `/events/`, `/resources/`, `/services/`, `/people/`, `/contact/`, `/hops/`, and `/methods/crep/`. Each page file (`index.html`, `publications.html`, `outputs.html`, `events.html`, `resources.html`, `people.html`, `contact.html`, `hops.html`, `crep.html`, `services.html`) is short and only sets the title and pulls in the pieces below.
 
 - `_includes/section-*.html` — the standing prose sections on the home page (What we do, Research, HOPS, How it works, Governance). Plain HTML; edit the text directly.
 - `_includes/hero.html` — the top of the page, including the hub diagram.

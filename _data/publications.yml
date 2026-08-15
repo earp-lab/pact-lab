@@ -5,7 +5,10 @@
 #   which page it appears on.
 #
 #     authors   Surname, A. B., & Surname, C. D. — commas between all authors,
-#               ampersand before the last
+#               ampersand before the last. Wrap any author who appears on the
+#               People page in <span class="pactauthor">…</span> so they are
+#               shown in bold, e.g.
+#                 "Davies, R., Ives, J., & <span class=\"pactauthor\">Dunn, M.</span>"
 #     year      publication year
 #     title     SENTENCE CASE (only the first word, proper nouns, and acronyms
 #               capitalised), no full stop at the end
@@ -29,18 +32,19 @@
 
 publications:
 
-  - authors: "Frith, L."
+  - authors: "<span class=\"pactauthor\">Frith, L.</span>"
     year: 2023
     title: "Democratic justifications for patient public involvement and engagement in health research: an exploration of the theoretical debates and practical challenges"
     venue: "The Journal of Medicine and Philosophy"
     volume: "48(4)"
     pages: "400–412"
     doi: "https://doi.org/10.1093/jmp/jhad024"
+    note: "Open access"
     theme: "foundations"
     selected: true
     pact: false
 
-  - authors: "Singh, I., Viding, E., Spencer, L., Austin, C., Kokan, Z. R., & Stringaris, A."
+  - authors: "<span class=\"pactauthor\">Singh, I.</span>, Viding, E., Spencer, L., Austin, C., Kokan, Z. R., & Stringaris, A."
     year: 2025
     title: "The need for a science of patient and public involvement and participation in child and adolescent mental health research"
     venue: "Nature Mental Health"
@@ -51,7 +55,7 @@ publications:
     selected: true
     pact: false
 
-  - authors: "Savulescu, J., Gyngell, C., & Kahane, G."
+  - authors: "<span class=\"pactauthor\">Savulescu, J.</span>, Gyngell, C., & Kahane, G."
     year: 2021
     title: "Collective reflective equilibrium in practice (CREP) and controversial novel technologies"
     venue: "Bioethics"
@@ -63,35 +67,38 @@ publications:
     selected: true
     pact: false
 
-  - authors: "Earp, B. D., Lewis, J., Dranseika, V., & Hannikainen, I. R."
+  - authors: "<span class=\"pactauthor\">Earp, B. D.</span>, Lewis, J., Dranseika, V., & Hannikainen, I. R."
     year: 2021
     title: "Experimental philosophical bioethics and normative inference"
     venue: "Theoretical Medicine and Bioethics"
     volume: "42"
     pages: "91–111"
     doi: "https://doi.org/10.1007/s11017-021-09546-z"
+    note: "Open access"
     theme: "methods"
     selected: true
     pact: false
 
-  - authors: "Davies, R., Ives, J., & Dunn, M."
+  - authors: "Davies, R., Ives, J., & <span class=\"pactauthor\">Dunn, M.</span>"
     year: 2015
     title: "A systematic review of empirical bioethics methodologies"
     venue: "BMC Medical Ethics"
     volume: "16"
     pages: "15"
     doi: "https://doi.org/10.1186/s12910-015-0010-3"
+    note: "Open access"
     theme: "methods"
     selected: true
     pact: false
 
-  - authors: "Toh, H. J., Smedinga, M., Feroz, F., Savulescu, J., & Schaefer, G. O."
+  - authors: "Toh, H. J., Smedinga, M., Feroz, F., <span class=\"pactauthor\">Savulescu, J.</span>, & <span class=\"pactauthor\">Schaefer, G. O.</span>"
     year: 2026
     title: "A survey of public attitudes toward secondary research governance oversight: evidence from Singapore's TRUST platform"
     venue: "International Journal of Population Data Science"
     volume: "11(1)"
     pages: "3200"
     doi: "https://doi.org/10.23889/ijpds.v11i1.3200"
+    note: "Open access"
     theme: "studies"
     selected: true
     pact: false

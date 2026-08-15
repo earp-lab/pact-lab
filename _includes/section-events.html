@@ -18,21 +18,31 @@
 
     {%- if n_up > 0 %}
     <p class="subhead">Upcoming</p>
-    <div class="reslist">
+    <div class="eventlist">
+      {%- assign lastyear = "" -%}
+      {%- assign lastmonth = "" -%}
       {%- for e in sorted %}
-      {%- if e.talks %}
-        {%- for t in e.talks %}
-        {%- assign d = t.date | date: "%Y%m%d" %}
-        {%- if d >= today %}
-      {% include event.html e=e talk=t %}
+        {%- if e.talks %}
+          {%- for t in e.talks %}
+            {%- assign d = t.date | date: "%Y%m%d" %}
+            {%- if d >= today %}
+              {%- assign y = t.date | date: "%Y" %}
+              {%- assign m = t.date | date: "%B" %}
+              {%- if y != lastyear %}<p class="yearmark">{{ y }}</p>{% assign lastyear = y %}{% assign lastmonth = "" %}{% endif %}
+              {%- if m != lastmonth %}<p class="monthmark">{{ m }}</p>{% assign lastmonth = m %}{% endif %}
+              {% include event.html e=e talk=t %}
+            {%- endif %}
+          {%- endfor %}
+        {%- else %}
+          {%- assign d = e.date | date: "%Y%m%d" %}
+          {%- if d >= today %}
+            {%- assign y = e.date | date: "%Y" %}
+            {%- assign m = e.date | date: "%B" %}
+            {%- if y != lastyear %}<p class="yearmark">{{ y }}</p>{% assign lastyear = y %}{% assign lastmonth = "" %}{% endif %}
+            {%- if m != lastmonth %}<p class="monthmark">{{ m }}</p>{% assign lastmonth = m %}{% endif %}
+            {% include event.html e=e %}
+          {%- endif %}
         {%- endif %}
-        {%- endfor %}
-      {%- else %}
-        {%- assign d = e.date | date: "%Y%m%d" %}
-        {%- if d >= today %}
-      {% include event.html e=e %}
-        {%- endif %}
-      {%- endif %}
       {%- endfor %}
     </div>
     {%- endif %}
@@ -40,21 +50,32 @@
     {%- if n_past > 0 %}
     {%- assign rsorted = sorted | reverse %}
     <p class="subhead">Past</p>
-    <div class="reslist">
+    <div class="eventlist">
+      {%- assign lastyear = "" -%}
+      {%- assign lastmonth = "" -%}
       {%- for e in rsorted %}
-      {%- if e.talks %}
-        {%- for t in e.talks %}
-        {%- assign d = t.date | date: "%Y%m%d" %}
-        {%- if d < today %}
-      {% include event.html e=e talk=t %}
+        {%- if e.talks %}
+          {%- assign rtalks = e.talks | sort: "date" | reverse %}
+          {%- for t in rtalks %}
+            {%- assign d = t.date | date: "%Y%m%d" %}
+            {%- if d < today %}
+              {%- assign y = t.date | date: "%Y" %}
+              {%- assign m = t.date | date: "%B" %}
+              {%- if y != lastyear %}<p class="yearmark">{{ y }}</p>{% assign lastyear = y %}{% assign lastmonth = "" %}{% endif %}
+              {%- if m != lastmonth %}<p class="monthmark">{{ m }}</p>{% assign lastmonth = m %}{% endif %}
+              {% include event.html e=e talk=t %}
+            {%- endif %}
+          {%- endfor %}
+        {%- else %}
+          {%- assign d = e.date | date: "%Y%m%d" %}
+          {%- if d < today %}
+            {%- assign y = e.date | date: "%Y" %}
+            {%- assign m = e.date | date: "%B" %}
+            {%- if y != lastyear %}<p class="yearmark">{{ y }}</p>{% assign lastyear = y %}{% assign lastmonth = "" %}{% endif %}
+            {%- if m != lastmonth %}<p class="monthmark">{{ m }}</p>{% assign lastmonth = m %}{% endif %}
+            {% include event.html e=e %}
+          {%- endif %}
         {%- endif %}
-        {%- endfor %}
-      {%- else %}
-        {%- assign d = e.date | date: "%Y%m%d" %}
-        {%- if d < today %}
-      {% include event.html e=e %}
-        {%- endif %}
-      {%- endif %}
       {%- endfor %}
     </div>
     {%- endif %}
