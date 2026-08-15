@@ -364,3 +364,27 @@
   .newsitem p{font-size:15px;line-height:1.6;color:var(--ink-soft)}
   .bandhead{font-size:clamp(24px,3vw,30px);margin-bottom:28px}
   .hero .expansion{font-size:18.5px;color:var(--ink);margin-bottom:26px}
+
+  /* Job advertisements */
+  .jobad{max-width:52em;margin-bottom:52px;padding-bottom:40px;border-bottom:1px solid var(--line)}
+  .jobad:last-of-type{border-bottom:none}
+  .jobad h2{font-size:28px;margin-bottom:6px;scroll-margin-top:90px}
+  .jobad .jobwhere em{font-style:normal;font-size:15px;color:var(--ink-soft)}
+  .jobad .jobmeta{font-size:14.5px;color:var(--ink-soft);margin-top:4px}
+  .jobad .jobmeta span{font-weight:700;color:var(--navy-deep);margin-right:4px}
+  .jobad h3{
+    font-size:12.5px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--orange);margin:30px 0 10px;font-family:'Public Sans',sans-serif;
+  }
+  .jobad p{font-size:15.5px;line-height:1.65;color:var(--ink);margin-bottom:12px}
+  .jobad ul{margin:0 0 14px 1.15em}
+  .jobad li{font-size:15.5px;line-height:1.6;color:var(--ink-soft);margin-bottom:9px}
+  .reslist{align-items:start}
+  .ressection > p.intro.afterlist{margin-top:24px}
+  section.jumpband{padding:26px 0 0}
+  section.jumpband .jumpnav{margin-bottom:0}
+  #news, #events{scroll-margin-top:96px}
+
+  /* People page: tighten the gap above the first group */
+  section.people{padding-top:34px}
+  section.people .subhead:first-of-type{margin-top:0}
