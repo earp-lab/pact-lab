@@ -1,7 +1,7 @@
 ---
 title: "Two talks by Professor Mark Sheehan"
 speaker: "Mark Sheehan"
-affiliation: "Ethox Centre and Oxford Uehiro Institute, University of Oxford"
+affiliation: "Ethox Centre and Uehiro Centre for Practical Ethics, University of Oxford"
 date: 2026-09-10
 location: "Block MD11, 10 Medical Drive (room to be confirmed)"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab"

@@ -1,0 +1,30 @@
+---
+layout: default
+title: PACT Lab outputs — PACT Lab
+description: Publications arising from PACT Lab's funded work, listed by year.
+permalink: /publications/outputs/
+nav: publications
+---
+
+{% include pagehead.html eyebrow="Outputs" heading="PACT Lab outputs" intro="Publications arising from the Lab's own funded work, listed by year and alphabetically by author within each year. For a curated reading list on patient and public involvement, including work by others, see Selected publications." %}
+
+<section>
+  <div class="wrap">
+    {%- assign outputs = site.data.publications.publications | where: "pact", true -%}
+    {%- if outputs.size > 0 -%}
+      {%- assign byyear = outputs | group_by: "year" | sort: "name" | reverse -%}
+      {%- for y in byyear %}
+      <div class="ressection" id="y{{ y.name }}">
+        <h2>{{ y.name }}</h2>
+        <ol class="publist">
+          {%- assign inyear = y.items | sort: "authors" %}
+          {%- for p in inyear %}{% include publication.html p=p %}{% endfor %}
+        </ol>
+      </div>
+      {%- endfor %}
+    {%- else %}
+    <p class="subnote">Publications from the Lab's funded work will be listed here as they appear, beginning in 2026.</p>
+    {%- endif %}
+    <p class="backlink"><a href="{{ '/publications/' | relative_url }}">&larr; Selected publications</a></p>
+  </div>
+</section>

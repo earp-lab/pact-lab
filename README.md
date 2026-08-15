@@ -25,7 +25,9 @@ To add a photo: upload a square JPEG to `assets/images/people/` (Add file → Up
 
 ### `_data/publications.yml` — the publication list
 
-Grouped into sections (CREP, experimental bioethics, patient and public involvement), newest first within each. House format: authors as `Surname, A. B., & Surname, C. D.`, titles in sentence case, en dashes in page ranges, and the DOI as a full `https://doi.org/...` address. The title links to the DOI automatically.
+One list feeding two pages. Each entry has a `theme` (`foundations`, `methods`, or `studies`) and two flags: `selected: true` puts it on **Selected publications**, and `pact: true` puts it on **PACT Lab outputs**, which groups by year. An entry can carry both.
+
+House format: authors as `Surname, A. B., & Surname, C. D.`, titles in sentence case, en dashes in page ranges, and the DOI as a full `https://doi.org/...` address. The title links to the DOI automatically. Full instructions are at the top of the file.
 
 ### `_events/` — talks and workshops
 
@@ -58,7 +60,7 @@ Grouped into sections. Each item has a type label, title, blurb, and either a li
 
 ## Everything else
 
-The site has four pages: the home page, `/publications/`, `/events/`, and `/resources/`. Each page file (`index.html`, `publications.html`, `events.html`, `resources.html`) is short and only sets the title and pulls in the pieces below.
+The site has five pages: the home page, `/publications/`, `/publications/outputs/`, `/events/`, and `/resources/`. Each page file (`index.html`, `publications.html`, `outputs.html`, `events.html`, `resources.html`) is short and only sets the title and pulls in the pieces below.
 
 - `_includes/section-*.html` — the standing prose sections (What we do, Our method, How it works, Governance, Research). Plain HTML; edit the text directly.
 - `_includes/hero.html` — the top of the page, including the hub diagram.

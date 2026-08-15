@@ -1,61 +1,97 @@
 # PACT Lab — publications
 #
 # HOW TO EDIT
-#   Publications are grouped into sections. Each section has a title, an
-#   optional intro, and a list of items, newest first. Each item has:
-#     authors  the author list in the house format: Surname, A. B., & Surname,
-#              C. D. — commas between all authors, ampersand before the last
-#     year     publication year
-#     title    the article title in SENTENCE CASE (only the first word, proper
-#              nouns, and acronyms capitalised), with no full stop at the end
-#     venue    journal name only — volume, issue, and pages go in the next fields
-#     volume   e.g. "35(7)"
-#     pages    e.g. "652–663" (use an en dash, not a hyphen)
-#     doi      the full https://doi.org/... address; the title links to it
-#     note     a short label such as "Open access", optional
+#   One list. Each entry carries a theme, and two yes/no flags that decide
+#   which page it appears on.
 #
-#   To ADD one: copy a block, keep the indentation exactly, put it at the top
-#   of its section. To ADD a section: copy a whole section block.
+#     authors   Surname, A. B., & Surname, C. D. — commas between all authors,
+#               ampersand before the last
+#     year      publication year
+#     title     SENTENCE CASE (only the first word, proper nouns, and acronyms
+#               capitalised), no full stop at the end
+#     venue     journal name only
+#     volume    e.g. "35(7)"
+#     pages     e.g. "652–663" (en dash, not a hyphen)
+#     doi       full https://doi.org/... address; the title links to it
+#     note      short label such as "Open access", optional
+#
+#     theme     one of: foundations | methods | studies
+#                 foundations  why involvement, its ethics, justification, governance
+#                 methods      how it is done and studied, including CREP and HOPS
+#                 studies      involvement in practice: surveys, qualitative work, co-design
+#     selected  true to show it on the Selected publications page
+#     pact      true if it came out of PACT Lab's own funded work; these appear
+#               on the Outputs page, grouped by year
+#
+#   To ADD one: copy a block, keep the indentation exactly. Order in this file
+#   does not matter — both pages sort themselves.
 #   Anything with an apostrophe or colon must stay inside the double quotes.
 
-sections:
-  - title: "Patient and public involvement and engagement"
-    intro: "Work on the justification, methods, and evaluation of involving patients and the public in health research."
-    items:
-      - authors: "Singh, I., Viding, E., Spencer, L., Austin, C., Kokan, Z. R., & Stringaris, A."
-        year: 2025
-        title: "The need for a science of patient and public involvement and participation in child and adolescent mental health research"
-        venue: "Nature Mental Health"
-        volume: "3(11)"
-        pages: "1311–1317"
-        doi: "https://doi.org/10.1038/s44220-025-00497-1"
-      - authors: "Frith, L."
-        year: 2023
-        title: "Democratic justifications for patient public involvement and engagement in health research: an exploration of the theoretical debates and practical challenges"
-        venue: "The Journal of Medicine and Philosophy"
-        volume: "48(4)"
-        pages: "400–412"
-        doi: "https://doi.org/10.1093/jmp/jhad024"
+publications:
 
-  - title: "Collective Reflective Equilibrium in Practice (CREP)"
-    intro: "CREP is the framework PACT uses to move from public and patient input to justifiable policy and translation recommendations. It treats considered public judgements as evidence to be weighed against theoretical commitments, revising both until they cohere."
-    items:
-      - authors: "Savulescu, J., Gyngell, C., & Kahane, G."
-        year: 2021
-        title: "Collective reflective equilibrium in practice (CREP) and controversial novel technologies"
-        venue: "Bioethics"
-        volume: "35(7)"
-        pages: "652–663"
-        doi: "https://doi.org/10.1111/bioe.12869"
-        note: "Open access"
+  - authors: "Frith, L."
+    year: 2023
+    title: "Democratic justifications for patient public involvement and engagement in health research: an exploration of the theoretical debates and practical challenges"
+    venue: "The Journal of Medicine and Philosophy"
+    volume: "48(4)"
+    pages: "400–412"
+    doi: "https://doi.org/10.1093/jmp/jhad024"
+    theme: "foundations"
+    selected: true
+    pact: false
 
-  - title: "Experimental bioethics"
-    intro: "Controlled experiments on moral judgement, and what follows from their results for normative argument."
-    items:
-      - authors: "Earp, B. D., Lewis, J., Dranseika, V., & Hannikainen, I. R."
-        year: 2021
-        title: "Experimental philosophical bioethics and normative inference"
-        venue: "Theoretical Medicine and Bioethics"
-        volume: "42"
-        pages: "91–111"
-        doi: "https://doi.org/10.1007/s11017-021-09546-z"
+  - authors: "Singh, I., Viding, E., Spencer, L., Austin, C., Kokan, Z. R., & Stringaris, A."
+    year: 2025
+    title: "The need for a science of patient and public involvement and participation in child and adolescent mental health research"
+    venue: "Nature Mental Health"
+    volume: "3(11)"
+    pages: "1311–1317"
+    doi: "https://doi.org/10.1038/s44220-025-00497-1"
+    theme: "foundations"
+    selected: true
+    pact: false
+
+  - authors: "Savulescu, J., Gyngell, C., & Kahane, G."
+    year: 2021
+    title: "Collective reflective equilibrium in practice (CREP) and controversial novel technologies"
+    venue: "Bioethics"
+    volume: "35(7)"
+    pages: "652–663"
+    doi: "https://doi.org/10.1111/bioe.12869"
+    note: "Open access"
+    theme: "methods"
+    selected: true
+    pact: false
+
+  - authors: "Earp, B. D., Lewis, J., Dranseika, V., & Hannikainen, I. R."
+    year: 2021
+    title: "Experimental philosophical bioethics and normative inference"
+    venue: "Theoretical Medicine and Bioethics"
+    volume: "42"
+    pages: "91–111"
+    doi: "https://doi.org/10.1007/s11017-021-09546-z"
+    theme: "methods"
+    selected: true
+    pact: false
+
+  - authors: "Davies, R., Ives, J., & Dunn, M."
+    year: 2015
+    title: "A systematic review of empirical bioethics methodologies"
+    venue: "BMC Medical Ethics"
+    volume: "16"
+    pages: "15"
+    doi: "https://doi.org/10.1186/s12910-015-0010-3"
+    theme: "methods"
+    selected: true
+    pact: false
+
+  - authors: "Toh, H. J., Smedinga, M., Feroz, F., Savulescu, J., & Schaefer, G. O."
+    year: 2026
+    title: "A survey of public attitudes toward secondary research governance oversight: evidence from Singapore's TRUST platform"
+    venue: "International Journal of Population Data Science"
+    volume: "11(1)"
+    pages: "3200"
+    doi: "https://doi.org/10.23889/ijpds.v11i1.3200"
+    theme: "studies"
+    selected: true
+    pact: false

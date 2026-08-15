@@ -211,8 +211,18 @@
   .talkslot .talkdate{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin-bottom:7px}
   .talkslot .talktitle{font-family:'Spectral',serif;font-size:18px;color:var(--navy-deep);line-height:1.3;margin-bottom:6px}
   .talkslot .talkloc{font-size:12.5px;color:var(--ink-soft);margin:0}
-  .speakergrid{grid-template-columns:repeat(2,1fr);max-width:52em}
-  @media(max-width:640px){.speakergrid{grid-template-columns:1fr}}
+  section.speakers{padding:30px 0}
+  .speakergrid{grid-template-columns:repeat(2,1fr);max-width:34em;margin:0}
+  .speakergrid .person{padding:16px 18px}
+  .speakergrid .person .photo{width:76px;height:76px;margin-bottom:10px}
+  @media(max-width:520px){.speakergrid{grid-template-columns:1fr;max-width:20em}}
   .eventbody h2{border-top:1px solid var(--line);padding-top:22px}
   .eventbody h2:first-child{border-top:none;padding-top:0}
   header.pagehead .regsoon{margin-top:22px;font-style:italic}
+
+  /* Jump navigation on long pages */
+  .jumpnav{display:flex;flex-wrap:wrap;gap:0;margin-bottom:38px;border-bottom:1px solid var(--line)}
+  .jumpnav a{font-size:13.5px;font-weight:600;text-decoration:none;color:var(--ink-soft);padding:0 18px 12px 0;margin-right:4px}
+  .jumpnav a:hover{color:var(--navy)}
+  .jumpnav a:last-child{color:var(--orange)}
+  .ressection{scroll-margin-top:80px}

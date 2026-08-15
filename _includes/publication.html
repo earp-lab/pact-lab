@@ -1,0 +1,11 @@
+        <li>
+          <span class="pubauthors">{{ include.p.authors }}</span> ({{ include.p.year }}).
+          {%- if include.p.doi %} <a href="{{ include.p.doi }}">{{ include.p.title }}</a>.
+          {%- else %} {{ include.p.title }}.
+          {%- endif %}
+          {%- if include.p.venue %} <span class="pubvenue">{{ include.p.venue }}</span>{% if include.p.volume %}, {{ include.p.volume }}{% endif %}{% if include.p.pages %}, {{ include.p.pages }}{% endif %}.{% endif %}
+          {%- if include.p.note %} <span class="pubnote">{{ include.p.note }}</span>{% endif %}
+          {%- if include.p.doi %}
+          <br><a class="doilink" href="{{ include.p.doi }}">{{ include.p.doi }}</a>
+          {%- endif %}
+        </li>
