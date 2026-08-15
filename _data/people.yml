@@ -211,7 +211,7 @@ advisors:
       role: "Senior Advisor"
       affiliation: "Professor of Neuroscience &amp; Society, University of Oxford; Co-Director, Oxford Wellcome Platform in Transformative, Inclusive Bioethics (ANTITHESES)"
       profile: "https://www.psych.ox.ac.uk/team/ilina-singh"
-      - name: "Mark Sheehan"
+    - name: "Mark Sheehan"
       initials: "MS"
       photo: "people/mark-sheehan.jpg"
       role: "Senior Advisor"
