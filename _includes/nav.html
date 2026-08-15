@@ -3,7 +3,7 @@
     <a class="brand" href="{{ '/' | relative_url }}">PACT<span>&nbsp;Lab</span></a>
     <ul class="navlinks">
       <li class="hasmenu">
-        <a href="{{ '/' | relative_url }}#services">What we do <span class="caret" aria-hidden="true">&#9662;</span></a>
+        <a href="{{ '/' | relative_url }}#services">What we do</a><button type="button" class="caretbtn" aria-expanded="false" aria-label="Show more under What we do">&#9662;</button>
         <ul class="submenu">
           <li><a href="{{ '/' | relative_url }}#model">How we work</a></li>
           <li><a href="{{ '/' | relative_url }}#governance">Governance</a></li>
@@ -17,3 +17,22 @@
     </ul>
   </div>
 </nav>
+
+<script>
+(function(){
+  var li = document.querySelector('.navlinks .hasmenu');
+  if(!li) return;
+  var btn = li.querySelector('.caretbtn');
+  function close(){ li.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    var open = li.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(e){ if(!li.contains(e.target)) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+  li.addEventListener('focusout', function(){
+    window.setTimeout(function(){ if(!li.contains(document.activeElement)) close(); }, 0);
+  });
+})();
+</script>
