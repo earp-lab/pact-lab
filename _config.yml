@@ -7,6 +7,9 @@ description: "PACT Lab is a joint CBmE–NUHS platform for patient and public in
 # set baseurl to "/pact-lab".
 url: ""
 baseurl: "/pact-lab"
+
+# Jekyll hides future-dated documents by default, which would stop
+# upcoming events from being published. Keep this true.
 future: true
 
 collections:

@@ -1,5 +1,5 @@
 <article class="person{% if include.p.tba %} tba{% endif %}">
-        <div class="photo"><span class="mono">{{ include.p.initials }}</span>{% if include.p.photo %}<img src="{{ '/assets/images/' | append: include.p.photo | relative_url }}" alt="{{ include.p.name }}" onerror="this.remove()">{% endif %}</div>
+        <div class="photo">{% if include.p.icon == "network" %}{% include icon-network.html %}{% else %}<span class="mono">{{ include.p.initials }}</span>{% endif %}{% if include.p.photo %}<img src="{{ '/assets/images/' | append: include.p.photo | relative_url }}" alt="{{ include.p.name }}" onerror="this.remove()">{% endif %}</div>
         <div class="info">
           <h3>{{ include.p.name }}</h3>
           {%- if include.p.role %}

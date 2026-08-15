@@ -182,7 +182,7 @@
   /* Interior page headers */
   header.pagehead{padding:56px 0 44px;border-bottom:1px solid var(--line);background:var(--tint)}
   header.pagehead h1{font-size:clamp(28px,3.8vw,40px);margin-bottom:12px}
-  header.pagehead .lede{font-size:18px;line-height:1.55;color:var(--ink-soft);max-width:40em}
+  header.pagehead .lede{font-size:18px;line-height:1.55;color:var(--ink-soft);max-width:46em;text-wrap:balance}
   .navlinks a.current{color:var(--navy)}
   .navlinks a.current::after{content:"";display:block;height:2px;background:var(--orange);margin-top:3px}
   .ressection{margin-bottom:44px}

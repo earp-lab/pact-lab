@@ -1,7 +1,7 @@
 ---
 title: "Two talks by Professor Mark Sheehan"
 speaker: "Mark Sheehan"
-affiliation: "Ethox Centre and Uehiro Centre for Practical Ethics, University of Oxford"
+affiliation: "Ethox Centre and Uehiro Oxford Institute, University of Oxford"
 date: 2026-09-10
 location: "Block MD11, 10 Medical Drive (room to be confirmed)"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab"
@@ -46,6 +46,6 @@ The talk also takes up two current shifts. The first concerns diversity and incl
 
 ## About the speaker
 
-Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, a Research Fellow at the Uehiro Centre for Practical Ethics, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. His research addresses population-level health research and governance and public health ethics, including consent and governance in population-level research, trust and trustworthiness in healthcare institutions and in public attitudes research, and the nature and justification of patient and public involvement in research and health policy making. In his BRC role he works on research ethics, governance, and involvement across the Oxford BRC themes.
+Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, a Research Fellow at the Uehiro Oxford Institute, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. His research addresses population-level health research and governance and public health ethics, including consent and governance in population-level research, trust and trustworthiness in healthcare institutions and in public attitudes research, and the nature and justification of patient and public involvement in research and health policy making. In his BRC role he works on research ethics, governance, and involvement across the Oxford BRC themes.
 
 He is a National Research Ethics Advisor for the National Research Ethics Service, a member of the Ethics Review Advisory Group for the Health Research Authority's Think Ethics programme, and a long-standing member of NICE's Highly Specialised Technology Evaluation Committee. He has published in the Journal of Applied Philosophy, the Journal of Medical Ethics, the BMJ, and the American Journal of Bioethics. He received his PhD in philosophy from the City University of New York with a thesis on the nature of moral judgements.

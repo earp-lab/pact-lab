@@ -33,6 +33,7 @@ leadership:
       profile: "https://www.nuhs.edu.sg/about-nuhs/our-leadership/nuhs-senior-leadership"
     - name: "Patient and Public Leadership Network"
       initials: "TBA"
+      icon: "network"
       role: "Patient &amp; Public Partnership"
       affiliation: "In development with the NUHS Patient &amp; Family Partners"
       blurb: "A network of patient and public partners with diverse lived experience, contributing to the Lab's direction and to individual projects by interest and expertise."
