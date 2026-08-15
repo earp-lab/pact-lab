@@ -6,7 +6,7 @@
 #     initials    shown in the circle if there is no photo (e.g. "TBA", "SRF")
 #     photo       a file in assets/images/people/ — write just the file name,
 #                 e.g. "people/jane-tan.jpg". Leave it out and the initials show.
-#     role        the PACT role, e.g. "Steering Committee"
+#     role        the PACT Lab role, e.g. "Steering Committee"
 #     affiliation the person's institutional title
 #     blurb       one or two sentences, optional
 #     profile     a full URL to their institutional page, optional
@@ -97,9 +97,9 @@ core_staff:
     - name: "Research Associate"
       initials: "RA"
       tba: true
-      role: "PPIE Facilitator — In Recruitment"
-      affiliation: "Based at NUHS"
-      blurb: "The Lab's operational point of contact: coordinating panels, supporting engagement activities, and working directly with patients, caregivers, and members of the public."
+      role: "PACT Lab Associate — In Recruitment"
+      affiliation: "Joint CBmE–NUHS appointment"
+      blurb: "PACT Lab Associate (Research, Engagement &amp; Implementation): the Lab's operational point of contact, coordinating panels and engagement activities, community mobilisation, and work with patients, caregivers, and members of the public."
 
 affiliated_staff:
   label: "Affiliated Staff"
@@ -115,21 +115,21 @@ affiliated_staff:
       photo: "people/liu-yuxin.jpg"
       role: "Research Fellow"
       affiliation: "Centre for Biomedical Ethics, NUS Medicine"
-      blurb: "Supports PACT's PPIE work through the EARP Lab."
+      blurb: "Supports the PACT Lab's PPIE work through the EARP Lab."
       profile: "https://medicine.nus.edu.sg/cbme/people_uri/liu-yuxin/"
     - name: "Alexa Nord-Bronzyk"
       initials: "AN"
       photo: "people/alexa-nord-bronzyk.jpg"
       role: "Research Fellow"
       affiliation: "Centre for Biomedical Ethics, NUS Medicine"
-      blurb: "Contributes to PACT's PPIE work."
+      blurb: "Contributes to the PACT Lab's PPIE work."
       profile: "https://medicine.nus.edu.sg/cbme/people_uri/alexa-nord-bronzyk/"
     - name: "Zhao Shengyu"
       initials: "ZS"
       photo: "people/zhao-shengyu.jpg"
       role: "Research Fellow"
       affiliation: "Centre for Biomedical Ethics, NUS Medicine"
-      blurb: "Contributes to PACT's PPIE work."
+      blurb: "Contributes to the PACT Lab's PPIE work."
       profile: "https://medicine.nus.edu.sg/cbme/people_uri/zhao-shengyu/"
 
 collaborators:

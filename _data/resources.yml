@@ -17,11 +17,11 @@
 
 sections:
   - title: "Governing documents"
-    intro: "The principles, standards, and agreements under which PACT operates."
+    intro: "The principles, standards, and agreements under which the PACT Lab operates."
     items:
       - type: "Governing document"
         title: "Governing Philosophy"
-        blurb: "The principles and rationale underpinning PACT's approach to patient and public involvement."
+        blurb: "The principles and rationale underpinning the PACT Lab's approach to patient and public involvement."
         pending: "Coming soon"
       - type: "Guidance"
         title: "Best Practices for PPIE"
@@ -41,7 +41,7 @@ sections:
         pending: "In development"
 
   - title: "For research teams"
-    intro: "How to request PACT's support and what to expect."
+    intro: "How to request the PACT Lab's support and what to expect."
     items:
       - type: "Service information"
         title: "What we offer, and when"
