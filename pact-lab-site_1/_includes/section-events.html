@@ -1,0 +1,66 @@
+<section id="events">
+  <div class="wrap">
+    {%- assign today = site.time | date: "%Y%m%d" -%}
+    {%- assign sorted = site.events | sort: "date" -%}
+    {%- assign n_up = 0 -%}
+    {%- assign n_past = 0 -%}
+    {%- for e in sorted -%}
+      {%- if e.talks -%}
+        {%- for t in e.talks -%}
+          {%- assign d = t.date | date: "%Y%m%d" -%}
+          {%- if d >= today -%}{%- assign n_up = n_up | plus: 1 -%}{%- else -%}{%- assign n_past = n_past | plus: 1 -%}{%- endif -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- assign d = e.date | date: "%Y%m%d" -%}
+        {%- if d >= today -%}{%- assign n_up = n_up | plus: 1 -%}{%- else -%}{%- assign n_past = n_past | plus: 1 -%}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if n_up > 0 %}
+    <p class="subhead">Upcoming</p>
+    <div class="reslist">
+      {%- for e in sorted %}
+      {%- if e.talks %}
+        {%- for t in e.talks %}
+        {%- assign d = t.date | date: "%Y%m%d" %}
+        {%- if d >= today %}
+      {% include event.html e=e talk=t %}
+        {%- endif %}
+        {%- endfor %}
+      {%- else %}
+        {%- assign d = e.date | date: "%Y%m%d" %}
+        {%- if d >= today %}
+      {% include event.html e=e %}
+        {%- endif %}
+      {%- endif %}
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- if n_past > 0 %}
+    {%- assign rsorted = sorted | reverse %}
+    <p class="subhead">Past</p>
+    <div class="reslist">
+      {%- for e in rsorted %}
+      {%- if e.talks %}
+        {%- for t in e.talks %}
+        {%- assign d = t.date | date: "%Y%m%d" %}
+        {%- if d < today %}
+      {% include event.html e=e talk=t %}
+        {%- endif %}
+        {%- endfor %}
+      {%- else %}
+        {%- assign d = e.date | date: "%Y%m%d" %}
+        {%- if d < today %}
+      {% include event.html e=e %}
+        {%- endif %}
+      {%- endif %}
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- if n_up == 0 and n_past == 0 %}
+    <p class="subnote">No events are scheduled at present.</p>
+    {%- endif %}
+  </div>
+</section>

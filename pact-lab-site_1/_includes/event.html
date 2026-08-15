@@ -1,0 +1,7 @@
+{%- assign body = include.e.content | strip_html | strip -%}
+{%- if body != "" -%}{%- assign href = include.e.url -%}{%- else -%}{%- assign href = "" -%}{%- endif -%}
+{%- if include.talk -%}
+{% include event-card.html item=include.talk href=href speaker=include.e.speaker affiliation=include.e.affiliation %}
+{%- else -%}
+{% include event-card.html item=include.e href=href speaker=include.e.speaker affiliation=include.e.affiliation %}
+{%- endif -%}

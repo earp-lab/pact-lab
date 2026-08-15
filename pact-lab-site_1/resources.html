@@ -1,0 +1,27 @@
+---
+layout: default
+title: Resources — PACT Lab
+description: Guidance, governing documents, and training materials from PACT Lab.
+permalink: /resources/
+nav: resources
+---
+
+{% include pagehead.html eyebrow="Resources" heading="Guidance, governance, and training" intro="PACT's working documents, guidelines, and training materials, for research teams, partners, patients, and the public." %}
+
+<section>
+  <div class="wrap">
+    {%- for s in site.data.resources.sections %}
+    <div class="ressection">
+      <h2>{{ s.title }}</h2>
+      {%- if s.intro %}
+      <p class="intro">{{ s.intro }}</p>
+      {%- endif %}
+      <div class="reslist">
+        {%- for r in s.items %}
+        {% include resource.html r=r %}
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>

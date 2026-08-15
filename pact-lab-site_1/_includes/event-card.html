@@ -1,0 +1,21 @@
+{%- if include.href and include.href != "" -%}
+      <a class="rescard" href="{{ include.href | relative_url }}">
+{%- else -%}
+      <div class="rescard">
+{%- endif %}
+        <p class="rtype">{{ include.item.date | date: "%A %-d %B %Y" }}{% if include.item.time and include.item.time != "" %} &middot; {{ include.item.time }}{% endif %}</p>
+        <h3>{{ include.item.title }}</h3>
+        {%- if include.speaker %}
+        <p><strong>{{ include.speaker }}</strong>{% if include.affiliation %}, {{ include.affiliation }}{% endif %}</p>
+        {%- endif %}
+        {%- if include.item.blurb %}
+        <p>{{ include.item.blurb }}</p>
+        {%- endif %}
+        {%- if include.item.location and include.item.location != "" %}
+        <p class="pending">{{ include.item.location }}{% if include.href and include.href != "" %} &middot; Details &rarr;{% endif %}</p>
+        {%- endif %}
+{%- if include.href and include.href != "" %}
+      </a>
+{%- else %}
+      </div>
+{%- endif %}
