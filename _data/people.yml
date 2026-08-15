@@ -77,7 +77,12 @@ steering:
       role: "Steering Committee"
       affiliation: "Executive Director, Centre for Holistic Initiatives for Learning and Development (CHILD), NUS Medicine; Principal Scientist, A*STAR IHDP"
       profile: "https://medicine.nus.edu.sg/news/dr-keri-mccrickerd-appointed-executive-director-of-the-centre-for-holistic-initiatives-for-learning-and-development/"
-
+    - name: "Elaine Tan Hwee Kee"
+      initials: "ET"
+      role: "Steering Committee"
+      affiliation: "Assistant Director, Clinician Scientist Academy, Dean's Office, NUS Yong Loo Lin School of Medicine"
+      profile: "https://medicine.nus.edu.sg/csa/"
+      
 core_staff:
   label: "Core Staff"
   members:
