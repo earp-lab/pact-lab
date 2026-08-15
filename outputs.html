@@ -12,20 +12,32 @@ nav: publications
 <section>
   <div class="wrap">
     {%- assign outputs = site.data.publications.publications | where: "pact", true -%}
-    {%- if outputs.size > 0 -%}
-      {%- assign byyear = outputs | group_by: "year" | sort: "name" | reverse -%}
-      {%- for y in byyear %}
-      <div class="ressection" id="y{{ y.name }}">
-        <h2>{{ y.name }}</h2>
+
+    {%- assign kinds = "journal,policy,media,consultation" | split: "," -%}
+    {%- assign kindnames = "Peer-reviewed publications,Policy and position papers,Popular media,Consultations and submissions" | split: "," -%}
+
+    {%- for k in kinds %}
+      {%- assign idx = forloop.index0 %}
+      {%- assign inkind = outputs | where: "kind", k %}
+      {%- if inkind.size > 0 %}
+      <div class="ressection">
+        <h2>{{ kindnames[idx] }}</h2>
+        {%- assign byyear = inkind | group_by: "year" | sort: "name" | reverse %}
+        {%- for y in byyear %}
+        <p class="monthmark">{{ y.name }}</p>
         <ol class="publist">
           {%- assign inyear = y.items | sort: "authors" %}
           {%- for p in inyear %}{% include publication.html p=p %}{% endfor %}
         </ol>
+        {%- endfor %}
       </div>
-      {%- endfor %}
-    {%- else %}
-    <p class="subnote">Publications from the Lab's funded work will be listed here as they appear, beginning in 2026.</p>
+      {%- endif %}
+    {%- endfor %}
+
+    {%- if outputs.size == 0 %}
+    <p class="subnote">Publications, policy contributions, media, and consultation responses from the Lab's funded work will be listed here as they appear, beginning in 2026.</p>
     {%- endif %}
+
     <p class="backlink"><a href="{{ '/publications/' | relative_url }}">&larr; Selected publications</a></p>
   </div>
 </section>
