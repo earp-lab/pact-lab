@@ -49,30 +49,44 @@
   <label class="enqlabel" for="q_detail">Briefly, what is the study or the request about</label>
   <textarea id="q_detail" class="enqfield" rows="4"></textarea>
 
-  <button type="button" class="btn" id="enqsend">Open email with these answers</button>
-  <p class="enqnote">This opens your own email programme. If it does not, write to <a href="mailto:yuxinliu@nus.edu.sg">yuxinliu@nus.edu.sg</a> directly.</p>
+  <a class="btn" id="enqsend" href="mailto:yuxinliu@nus.edu.sg">Open email with these answers</a>
+  <p class="enqnote">This opens your own email programme. If it does not, write to <a href="mailto:yuxinliu@nus.edu.sg">yuxinliu@nus.edu.sg</a> directly, with the same information.</p>
+
+  <details class="enqfallback">
+    <summary>Or copy the message instead</summary>
+    <textarea id="enqpreview" class="enqfield" rows="10" readonly></textarea>
+  </details>
 </div>
 
 <script>
 (function(){
-  var b = document.getElementById('enqsend');
-  if(!b) return;
-  b.addEventListener('click', function(){
-    function v(id){ var e=document.getElementById(id); return e && e.value ? e.value.trim() : ''; }
-    var rows = [
-      ['Who is getting in touch', v('q_who')],
-      ['Name', v('q_name')],
-      ['Department, institution, or group', v('q_affil')],
-      ['Stage of the work', v('q_stage')],
-      ['What they are looking for', v('q_need')],
-      ['Fixed dates', v('q_deadline')]
-    ];
+  var link = document.getElementById('enqsend');
+  var out  = document.getElementById('enqpreview');
+  if(!link) return;
+  var ids = ['q_who','q_name','q_affil','q_stage','q_need','q_deadline','q_detail'];
+  var labels = {
+    q_who:'Who is getting in touch',
+    q_name:'Name',
+    q_affil:'Department, institution, or group',
+    q_stage:'Stage of the work',
+    q_need:'What they are looking for',
+    q_deadline:'Fixed dates'
+  };
+  function v(id){ var e=document.getElementById(id); return e && e.value ? e.value.trim() : ''; }
+  function compose(){
     var body = 'PACT Lab enquiry\n\n';
-    rows.forEach(function(r){ if(r[1]) body += r[0] + ': ' + r[1] + '\n'; });
-    var d = v('q_detail');
-    if(d) body += '\nAbout the study or request:\n' + d + '\n';
-    var subj = 'PACT Lab enquiry' + (v('q_need') ? ' — ' + v('q_need') : '');
-    window.location.href = 'mailto:yuxinliu@nus.edu.sg?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+    ['q_who','q_name','q_affil','q_stage','q_need','q_deadline'].forEach(function(id){
+      if(v(id)) body += labels[id] + ': ' + v(id) + '\n';
+    });
+    if(v('q_detail')) body += '\nAbout the study or request:\n' + v('q_detail') + '\n';
+    var subj = 'PACT Lab enquiry' + (v('q_need') ? ' \u2014 ' + v('q_need') : '');
+    link.setAttribute('href','mailto:yuxinliu@nus.edu.sg?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body));
+    if(out) out.value = 'To: yuxinliu@nus.edu.sg\nSubject: ' + subj + '\n\n' + body;
+  }
+  ids.forEach(function(id){
+    var e = document.getElementById(id);
+    if(e){ e.addEventListener('input', compose); e.addEventListener('change', compose); }
   });
+  compose();
 })();
 </script>

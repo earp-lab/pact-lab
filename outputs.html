@@ -6,7 +6,8 @@ permalink: /publications/outputs/
 nav: publications
 ---
 
-{% include pagehead.html eyebrow="Outputs" heading="PACT Lab outputs" intro="Publications arising from the Lab's own funded work, listed by year and alphabetically by author within each year. For a curated reading list on patient and public involvement, including work by others, see Selected publications." %}
+{% capture outintro %}Publications arising from the Lab's own funded work, listed by year and alphabetically by author within each year. For a curated reading list on patient and public involvement, including work by others, see <a href="{{ '/publications/' | relative_url }}">Selected publications</a>.{% endcapture %}
+{% include pagehead.html eyebrow="Outputs" heading="PACT Lab outputs" intro=outintro %}
 
 <section>
   <div class="wrap">

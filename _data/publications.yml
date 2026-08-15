@@ -102,3 +102,55 @@ publications:
     theme: "studies"
     selected: true
     pact: false
+
+  - authors: "<span class=\"pactauthor\">Savulescu, J.</span>"
+    year: 2025
+    title: "Collective reflective equilibrium, algorithmic bioethics and complex ethics"
+    venue: "Cambridge Quarterly of Healthcare Ethics"
+    volume: "34(2)"
+    pages: "204–219"
+    doi: "https://doi.org/10.1017/S0963180124000719"
+    theme: "methods"
+    selected: true
+    pact: false
+
+  - authors: "Tsiakiri, L., Yeo, S., &amp; <span class=\"pactauthor\">Savulescu, J.</span>"
+    year: 2026
+    title: "Eliciting normative judgments for ethically and politically legitimate policy-making"
+    venue: "Monash Bioethics Review"
+    doi: "https://doi.org/10.1007/s40592-026-00291-4"
+    theme: "methods"
+    selected: true
+    pact: false
+
+  - authors: "Smith, J. N., Barnhill, A., <span class=\"pactauthor\">Savulescu, J.</span>, Liao, S. M., McCoy, M. S., &amp; Blumenthal-Barby, J."
+    year: 2025
+    title: "'Why do you ask?' Revisiting the purpose of eliciting the public's moral judgments about emerging technologies"
+    venue: "AJOB Empirical Bioethics"
+    volume: "16(3)"
+    pages: "127–139"
+    doi: "https://doi.org/10.1080/23294515.2025.2474911"
+    theme: "foundations"
+    selected: true
+    pact: false
+
+  - authors: "Bachmakova, M., Buyukbabani, M. B., Dranseika, V., Brown, R. C., Devolder, K., Ryan, N., … &amp; <span class=\"pactauthor\">Earp, B. D.</span>"
+    year: 2025
+    title: "Even with diet and exercise, Ozempic use reduces perceived effort and praiseworthiness of resulting weight loss"
+    venue: "Social Science &amp; Medicine"
+    pages: "118657"
+    doi: "https://doi.org/10.1016/j.socscimed.2025.118657"
+    theme: "studies"
+    selected: true
+    pact: false
+
+  - authors: "Khan, M. A., Mikalonytė, E. S., Porsdam Mann, S., Liu, P., Chu, Y., Attie-Picker, M., Buyukbabani, M. B., <span class=\"pactauthor\">Savulescu, J.</span>, Hannikainen, I. R., &amp; <span class=\"pactauthor\">Earp, B. D.</span>"
+    year: 2026
+    title: "Personalizing AI art boosts credit, not beauty"
+    venue: "Technology in Society"
+    volume: "84"
+    pages: "103055"
+    doi: "https://doi.org/10.1016/j.techsoc.2025.103055"
+    theme: "studies"
+    selected: true
+    pact: false
