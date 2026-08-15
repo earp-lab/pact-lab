@@ -211,11 +211,18 @@
   .talkslot .talkdate{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin-bottom:7px}
   .talkslot .talktitle{font-family:'Spectral',serif;font-size:18px;color:var(--navy-deep);line-height:1.3;margin-bottom:6px}
   .talkslot .talkloc{font-size:12.5px;color:var(--ink-soft);margin:0}
-  section.speakers{padding:30px 0}
-  .speakergrid{grid-template-columns:repeat(2,1fr);max-width:34em;margin:0}
-  .speakergrid .person{padding:16px 18px}
-  .speakergrid .person .photo{width:76px;height:76px;margin-bottom:10px}
-  @media(max-width:520px){.speakergrid{grid-template-columns:1fr;max-width:20em}}
+  section.speakers{padding:26px 0;background:var(--white)}
+  .speakergrid{grid-template-columns:repeat(2,1fr);gap:14px;max-width:46em;margin:0}
+  .speakergrid .person{
+    flex-direction:row;align-items:center;text-align:left;gap:14px;padding:14px 16px;
+  }
+  .speakergrid .person .photo{width:58px;height:58px;margin:0;flex:0 0 58px}
+  .speakergrid .person .photo .mono{font-size:18px}
+  .speakergrid .person h3{font-size:15.5px}
+  .speakergrid .person .pactrole{margin-bottom:4px}
+  .speakergrid .person .insttitle{font-size:12px;margin-bottom:4px}
+  .speakergrid .person a.profile{font-size:12px;padding-top:2px;margin-top:2px}
+  @media(max-width:640px){.speakergrid{grid-template-columns:1fr;max-width:26em}}
   .eventbody h2{border-top:1px solid var(--line);padding-top:22px}
   .eventbody h2:first-child{border-top:none;padding-top:0}
   header.pagehead .regsoon{margin-top:22px;font-style:italic}
@@ -226,3 +233,5 @@
   .jumpnav a:hover{color:var(--navy)}
   .jumpnav a:last-child{color:var(--orange)}
   .ressection{scroll-margin-top:80px}
+  .person .photo .iconmono{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-deep) 100%)}
+  .person .photo .iconmono svg{width:58px;height:58px}
