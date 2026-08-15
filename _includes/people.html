@@ -1,0 +1,47 @@
+<section class="people" id="people">
+{% include people-head.html %}
+
+  {%- assign groups = "leadership,steering" | split: "," -%}
+  {%- for key in groups -%}
+    {%- assign g = site.data.people[key] -%}
+    <p class="subhead">{{ g.label }}</p>
+    {%- if g.note %}
+    <p class="subnote">{{ g.note }}</p>
+    {%- endif %}
+    <div class="teamgrid">
+      {%- for p in g.members %}
+      {% include person.html p=p %}
+      {%- endfor %}
+    </div>
+  {%- endfor %}
+
+    <p class="subhead">Research and Administration</p>
+    <p class="staffbandlabel">{{ site.data.people.core_staff.label }}</p>
+    <div class="teamgrid">
+      {%- for p in site.data.people.core_staff.members %}
+      {% include person.html p=p %}
+      {%- endfor %}
+    </div>
+    <p class="corestaff">Job advertisements will be posted here.</p>
+    <p class="staffbandlabel">{{ site.data.people.affiliated_staff.label }}</p>
+    <div class="teamgrid">
+      {%- for p in site.data.people.affiliated_staff.members %}
+      {% include person.html p=p %}
+      {%- endfor %}
+    </div>
+
+  {%- assign groups2 = "collaborators,advisors" | split: "," -%}
+  {%- for key in groups2 -%}
+    {%- assign g = site.data.people[key] -%}
+    <p class="subhead">{{ g.label }}</p>
+    {%- if g.note %}
+    <p class="subnote">{{ g.note }}</p>
+    {%- endif %}
+    <div class="teamgrid">
+      {%- for p in g.members %}
+      {% include person.html p=p %}
+      {%- endfor %}
+    </div>
+  {%- endfor %}
+
+{% include contact.html %}
