@@ -379,7 +379,10 @@
   .jobad p{font-size:15.5px;line-height:1.65;color:var(--ink);margin-bottom:12px}
   .jobad ul{margin:0 0 14px 1.15em}
   .jobad li{font-size:15.5px;line-height:1.6;color:var(--ink-soft);margin-bottom:9px}
-  .reslist{align-items:start}
+  /* Cards in the same row share a height, so their lower edges line up */
+  .reslist{align-items:stretch}
+  .reslist > .rescard{display:flex;flex-direction:column}
+  .reslist > .rescard > .pending{margin-top:auto;padding-top:10px}
   .ressection > p.intro.afterlist{margin-top:24px}
   section.jumpband{padding:26px 0 0}
   section.jumpband .jumpnav{margin-bottom:0}
