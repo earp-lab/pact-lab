@@ -25,7 +25,7 @@ talks:
     blurb: "What involvement is for, and when and for which kinds of research there is no need or requirement to do it. With a response from A/Prof Michael Dunn."
   - title: "Who and how do PPI contributors represent? Representation in patient and public involvement in health research"
     date: 2026-09-11
-    time: "Time to be confirmed"
+    time: "12:30–2:00pm"
     location: "Block MD11, 10 Medical Drive (room to be confirmed)"
     blurb: "A standalone paper applying distinctions from political philosophy to patient and public involvement."
 ---
@@ -40,7 +40,7 @@ The talk also takes up two current shifts. The first concerns diversity and incl
 
 **A/Prof Michael Dunn** will respond. Michael Dunn is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and an Associate Faculty member at the Ethox Centre, Oxford, where he worked for over a decade. His research integrates philosophical, legal, and qualitative methods, with particular attention to people at the margins of society and to the nature and purpose of bioethical inquiry.
 
-## Friday 11 September — Who and how do PPI contributors represent?
+## Friday 11 September, 12:30–2:00pm — Who and how do PPI contributors represent?
 
 This standalone paper applies a distinction from political philosophy to patient and public involvement. Hannah Pitkin's work in the 1960s separates being representative *of* a group, in the sense of resembling it or sharing its characteristics, from being a representative *for* a group, in the sense of acting on its behalf. The two come apart, and involvement practice often runs them together. Sheehan draws on empirical work with contributors about how they understand what they are doing.
 
