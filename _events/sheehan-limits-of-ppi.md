@@ -22,20 +22,24 @@ speakers:
     profile: "https://medicine.nus.edu.sg/cbme/people_uri/michael-dunn/"
 ---
 
-The first of two talks by Professor Mark Sheehan during his visit to the Centre for Biomedical Ethics on 10 and 11 September 2026. This talk is open to researchers, clinicians, patient partners, and members of the public. It is free, and registration is required. It runs around 35 to 40 minutes, followed by a response and discussion.
+Around 40 minutes, followed by a response and discussion. Free, with registration required.
 
-Funders across the United Kingdom now expect patient and public involvement in all research. Sheehan argues that the way to understand what involvement is for is to ask where it is not needed. Some cases arise from confusing involvement with ethics review, which asks whether a study is permissible rather than whether it is well designed for the people it affects. Others arise at the edges of the research enterprise: bench science, and abstract or theoretical work, where it is hard to say what involvement would contribute. Working through these cases yields a clearer account of the rationales for involvement in the cases where it does belong.
+## About the talk
 
-The talk also takes up two current shifts. The first concerns diversity and inclusion in involvement, which raises practical and philosophical questions about who is being included and on what basis. The second is terminological but consequential: the NIHR has replaced "patient and public involvement" with "community engagement and involvement", a change that has caused disagreement and marks a further shift in how the activity is understood. Sheehan will also introduce his wider body of work on the ethics of involvement, and how he has built the involvement agenda in the medical sciences division at Oxford as an ethicist embedded in the Oxford Biomedical Research Centre.
+Funders across the United Kingdom now expect patient and public involvement in all research. Sheehan argues that the way to understand what involvement is for is to ask where it is *not* needed: in bench science, in abstract or theoretical work, and in cases where involvement has been confused with ethics review.
 
-**A/Prof Michael Dunn** will respond. Michael Dunn is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and an Associate Faculty member at the Ethox Centre, Oxford, where he worked for over a decade. His research integrates philosophical, legal, and qualitative methods, with particular attention to people at the margins of society and to the nature and purpose of bioethical inquiry.
+Working through those cases gives a clearer account of why involvement belongs where it does.
 
-## About the speaker
+He also takes up two current disputes — diversity and inclusion in involvement, and the NIHR's replacement of "patient and public involvement" with "community engagement and involvement".
 
-Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, a Research Fellow at the Uehiro Oxford Institute, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. His research addresses population-level health research and governance and public health ethics, including consent and governance in population-level research, trust and trustworthiness in healthcare institutions and in public attitudes research, and the nature and justification of patient and public involvement in research and health policy making. In his BRC role he works on research ethics, governance, and involvement across the Oxford BRC themes.
+## The response
 
-He is a National Research Ethics Advisor for the National Research Ethics Service, a member of the Ethics Review Advisory Group for the Health Research Authority's Think Ethics programme, and a long-standing member of NICE's Highly Specialised Technology Evaluation Committee. He has published in the Journal of Applied Philosophy, the Journal of Medical Ethics, the BMJ, and the American Journal of Bioethics. He received his PhD in philosophy from the City University of New York with a thesis on the nature of moral judgements.
+**A/Prof Michael Dunn** will respond. He is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and spent over a decade at the Ethox Centre in Oxford.
+
+## The speaker
+
+Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. He works on research governance, public health ethics, and the justification of patient and public involvement, and advises the National Research Ethics Service and NICE.
 
 ## The second talk
 
-Professor Sheehan also gives a talk on Friday 11 September, "Who and how do PPI contributors represent?". That session is an internal seminar for the Centre for Biomedical Ethics and is not open to the public.
+"Who and how do PPI contributors represent?" follows on Friday 11 September. That session is internal to the Centre for Biomedical Ethics.
