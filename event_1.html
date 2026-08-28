@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<header class="pagehead">
+  <div class="wrap">
+    <p class="eyebrow">Event</p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.speaker %}
+    <p class="lede"><strong>{{ page.speaker }}</strong>{% if page.affiliation %}, {{ page.affiliation }}{% endif %}</p>
+    {%- endif %}
+    {%- if page.host %}
+    <p class="eventmeta">{{ page.host }}</p>
+    {%- endif %}
+
+    {%- if page.talks %}
+    <div class="talkbar">
+      {%- for t in page.talks %}
+      <div class="talkslot">
+        <p class="talkdate">{{ t.date | date: "%A %-d %B %Y" }}{% if t.time and t.time != "" %} &middot; {{ t.time }}{% endif %}</p>
+        <p class="talktitle">{{ t.title }}</p>
+        {%- if t.location and t.location != "" %}
+        <p class="talkloc">{{ t.location }}</p>
+        {%- endif %}
+      </div>
+      {%- endfor %}
+    </div>
+    {%- else %}
+      {%- if page.date %}
+      <p class="eventmeta">{{ page.date | date: "%A %-d %B %Y" }}{% if page.time and page.time != "" %} &middot; {{ page.time }}{% endif %}{% if page.location and page.location != "" %} &middot; {{ page.location }}{% endif %}</p>
+      {%- endif %}
+    {%- endif %}
+
+    {%- if page.registration and page.registration != "" %}
+    <p><a class="btn" href="{{ page.registration }}">{{ page.registration_label | default: "Register" }}</a></p>
+    {%- elsif page.registration_note and page.registration_note != "" %}
+    <p class="eventmeta regsoon">{{ page.registration_note }}</p>
+    {%- else %}
+    <p class="eventmeta regsoon">Registration details to follow.</p>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if page.speakers %}
+<section class="tinted speakers">
+  <div class="wrap">
+    <div class="teamgrid speakergrid">
+      {%- for s in page.speakers %}
+      {% include person.html p=s %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section>
+  <div class="wrap">
+    <div class="eventbody">
+      {{ content }}
+    </div>
+    <p class="backlink"><a href="{{ '/events/' | relative_url }}">&larr; All events</a></p>
+  </div>
+</section>
