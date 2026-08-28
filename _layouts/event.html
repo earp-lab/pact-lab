@@ -31,7 +31,9 @@ layout: default
     {%- endif %}
 
     {%- if page.registration and page.registration != "" %}
-    <p><a class="btn" href="{{ page.registration }}">Register</a></p>
+    <p><a class="btn" href="{{ page.registration }}">{{ page.registration_label | default: "Register" }}</a></p>
+    {%- elsif page.registration_note and page.registration_note != "" %}
+    <p class="eventmeta regsoon">{{ page.registration_note }}</p>
     {%- else %}
     <p class="eventmeta regsoon">Registration details to follow.</p>
     {%- endif %}
