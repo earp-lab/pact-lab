@@ -8,7 +8,7 @@ location: "Block MD11, 10 Medical Drive (room to be confirmed)"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab. Internal seminar, not open to the public."
 blurb: "An internal seminar for the Centre for Biomedical Ethics. Not open to the public. A standalone paper applying distinctions from political philosophy to patient and public involvement."
 registration: ""
-registration_note: "This is an internal seminar for the Centre for Biomedical Ethics. It is not open to the public and there is no registration."
+registration_note: "Internal seminar for the Centre for Biomedical Ethics. Not open to the public, and there is no registration."
 speakers:
   - name: "Mark Sheehan"
     photo: "people/mark-sheehan.jpg"
@@ -17,16 +17,18 @@ speakers:
     profile: "https://www.ethox.ox.ac.uk/people/mark-sheehan"
 ---
 
-The second of two talks by Professor Mark Sheehan during his visit to the Centre for Biomedical Ethics on 10 and 11 September 2026. This session is an internal seminar for the Centre for Biomedical Ethics and is not open to the public.
+The second of Professor Sheehan's two talks at the Centre for Biomedical Ethics. This one is internal to the Centre.
 
-This standalone paper applies a distinction from political philosophy to patient and public involvement. Hannah Pitkin's work in the 1960s separates being representative *of* a group, in the sense of resembling it or sharing its characteristics, from being a representative *for* a group, in the sense of acting on its behalf. The two come apart, and involvement practice often runs them together. Sheehan draws on empirical work with contributors about how they understand what they are doing.
+## About the talk
 
-## About the speaker
+Hannah Pitkin's work in the 1960s separates being representative *of* a group, in the sense of resembling it, from being a representative *for* a group, in the sense of acting on its behalf. The two come apart, and involvement practice often runs them together.
 
-Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, a Research Fellow at the Uehiro Oxford Institute, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. His research addresses population-level health research and governance and public health ethics, including consent and governance in population-level research, trust and trustworthiness in healthcare institutions and in public attitudes research, and the nature and justification of patient and public involvement in research and health policy making. In his BRC role he works on research ethics, governance, and involvement across the Oxford BRC themes.
+Sheehan applies that distinction to patient and public involvement, drawing on empirical work with contributors about how they understand what they are doing.
 
-He is a National Research Ethics Advisor for the National Research Ethics Service, a member of the Ethics Review Advisory Group for the Health Research Authority's Think Ethics programme, and a long-standing member of NICE's Highly Specialised Technology Evaluation Committee. He has published in the Journal of Applied Philosophy, the Journal of Medical Ethics, the BMJ, and the American Journal of Bioethics. He received his PhD in philosophy from the City University of New York with a thesis on the nature of moral judgements.
+## The speaker
+
+Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford, and NIHR Biomedical Research Centre: Oxford Ethics Fellow. He works on research governance, public health ethics, and the justification of patient and public involvement, and advises the National Research Ethics Service and NICE.
 
 ## The first talk
 
-Professor Sheehan's other talk, "The nature, role, and limits of PPI", is on Thursday 10 September at Shaw Foundation Alumni House. That one is open to researchers, clinicians, patient partners, and members of the public, and registration is free.
+"The nature, role, and limits of PPI" is on Thursday 10 September at Shaw Foundation Alumni House. That one is open to the public, and registration is free.
