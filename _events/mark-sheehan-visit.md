@@ -3,7 +3,7 @@ title: "Two talks by Professor Mark Sheehan"
 speaker: "Mark Sheehan"
 affiliation: "Ethox Centre and Uehiro Oxford Institute, University of Oxford"
 date: 2026-09-10
-location: "Block MD11, 10 Medical Drive (room to be confirmed)"
+location: "Shaw Foundation Alumni House, Sesame Room, 11 Kent Ridge Drive"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab"
 speakers:
   - name: "Mark Sheehan"
@@ -16,23 +16,27 @@ speakers:
     role: "Respondent, 10 September"
     affiliation: "Associate Professor and Director of Education, Centre for Biomedical Ethics, NUS Medicine"
     profile: "https://medicine.nus.edu.sg/cbme/people_uri/michael-dunn/"
-registration: ""
+registration: "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xu-lWwkxd06Fvc_rDTR-gvofkojw0gBAmRbQBoyAuoJUMUFOSTRXTEQzNDdRRkE0TURRU0xaREtOUS4u&origin=QRCode"
 talks:
   - title: "The nature, role, and limits of PPI"
     date: 2026-09-10
     time: "12:30–2:00pm"
-    location: "Block MD11, 10 Medical Drive (room to be confirmed)"
-    blurb: "What involvement is for, and when and for which kinds of research there is no need or requirement to do it. With a response from A/Prof Michael Dunn."
+    location: "Shaw Foundation Alumni House, Sesame Room, 11 Kent Ridge Drive, Singapore 119244"
+    blurb: "Open to researchers, clinicians, patient partners, and members of the public. Free, registration required. What involvement is for, and when and for which kinds of research there is no need or requirement to do it. With a response from A/Prof Michael Dunn."
   - title: "Who and how do PPI contributors represent? Representation in patient and public involvement in health research"
     date: 2026-09-11
     time: "12:30–2:00pm"
-    location: "Block MD11, 10 Medical Drive (room to be confirmed)"
-    blurb: "A standalone paper applying distinctions from political philosophy to patient and public involvement."
+    location: "Block MD11, 10 Medical Drive (room to be confirmed) — Centre for Biomedical Ethics only"
+    blurb: "An internal seminar for the Centre for Biomedical Ethics. Not open to the public. A standalone paper applying distinctions from political philosophy to patient and public involvement."
 ---
 
-Professor Mark Sheehan visits the Centre for Biomedical Ethics on 10 and 11 September 2026 to give two talks on patient and public involvement in research. Both are hosted by the Centre for Biomedical Ethics and PACT Lab, and both are open to researchers, clinicians, students, and members of the public. Each talk runs around 35 to 40 minutes, followed by discussion. Registration details will be posted here shortly.
+Professor Mark Sheehan visits the Centre for Biomedical Ethics on 10 and 11 September 2026 to give two talks on patient and public involvement in research. Both are hosted by the Centre for Biomedical Ethics and PACT Lab. Each talk runs around 35 to 40 minutes, followed by discussion.
+
+The talk on **Thursday 10 September** is open to researchers, clinicians, patient partners, and members of the public. It is free, and registration is required. The talk on **Friday 11 September** is an internal seminar for the Centre for Biomedical Ethics and is not open to the public.
 
 ## Thursday 10 September, 12:30–2:00pm — The nature, role, and limits of PPI
+
+Shaw Foundation Alumni House, Sesame Room, 11 Kent Ridge Drive, Singapore 119244. Open to researchers, clinicians, patient partners, and members of the public. Free, with registration required.
 
 Funders across the United Kingdom now expect patient and public involvement in all research. Sheehan argues that the way to understand what involvement is for is to ask where it is not needed. Some cases arise from confusing involvement with ethics review, which asks whether a study is permissible rather than whether it is well designed for the people it affects. Others arise at the edges of the research enterprise: bench science, and abstract or theoretical work, where it is hard to say what involvement would contribute. Working through these cases yields a clearer account of the rationales for involvement in the cases where it does belong.
 
@@ -41,6 +45,8 @@ The talk also takes up two current shifts. The first concerns diversity and incl
 **A/Prof Michael Dunn** will respond. Michael Dunn is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and an Associate Faculty member at the Ethox Centre, Oxford, where he worked for over a decade. His research integrates philosophical, legal, and qualitative methods, with particular attention to people at the margins of society and to the nature and purpose of bioethical inquiry.
 
 ## Friday 11 September, 12:30–2:00pm — Who and how do PPI contributors represent?
+
+Block MD11, 10 Medical Drive. Room to be confirmed. This is an internal seminar for the Centre for Biomedical Ethics and is not open to the public.
 
 This standalone paper applies a distinction from political philosophy to patient and public involvement. Hannah Pitkin's work in the 1960s separates being representative *of* a group, in the sense of resembling it or sharing its characteristics, from being a representative *for* a group, in the sense of acting on its behalf. The two come apart, and involvement practice often runs them together. Sheehan draws on empirical work with contributors about how they understand what they are doing.
 
