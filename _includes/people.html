@@ -1,9 +1,7 @@
 <section class="people" id="people">
   <div class="wrap">
 
-  {%- assign groups = "leadership,steering" | split: "," -%}
-  {%- for key in groups -%}
-    {%- assign g = site.data.people[key] -%}
+  {%- assign g = site.data.people.leadership -%}
     <p class="subhead">{{ g.label }}</p>
     {%- if g.note %}
     <p class="subnote">{{ g.note }}</p>
@@ -13,16 +11,8 @@
       {% include person.html p=p %}
       {%- endfor %}
     </div>
-  {%- endfor %}
 
     <p class="subhead">Research and Administration</p>
-    <p class="staffbandlabel">{{ site.data.people.core_staff.label }}</p>
-    <div class="teamgrid">
-      {%- for p in site.data.people.core_staff.members %}
-      {% include person.html p=p %}
-      {%- endfor %}
-    </div>
-    <p class="corestaff">Draft job advertisements are <a href="{{ '/hiring/' | relative_url }}">posted here</a>.</p>
     <p class="staffbandlabel">{{ site.data.people.affiliated_staff.label }}</p>
     <div class="teamgrid">
       {%- for p in site.data.people.affiliated_staff.members %}
@@ -30,19 +20,7 @@
       {%- endfor %}
     </div>
 
-  {%- assign groups2 = "collaborators,advisors" | split: "," -%}
-  {%- for key in groups2 -%}
-    {%- assign g = site.data.people[key] -%}
-    <p class="subhead">{{ g.label }}</p>
-    {%- if g.note %}
-    <p class="subnote">{{ g.note }}</p>
-    {%- endif %}
-    <div class="teamgrid">
-      {%- for p in g.members %}
-      {% include person.html p=p %}
-      {%- endfor %}
-    </div>
-  {%- endfor %}
+    <p class="subnote">A Steering Committee and a Patient and Public Leadership Network are being formed. Members will be listed here once appointments are confirmed.</p>
 
   </div>
 </section>
