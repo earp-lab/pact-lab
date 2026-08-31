@@ -1,12 +1,235 @@
 ---
 layout: default
-title: PACT Lab — Patient and public Action, Collaboration, and Trust in Research
-description: PACT Lab is a joint CBmE–NUHS platform for patient and public involvement and engagement in research across NUS Medicine and the National University Health System.
+title: PACT Lab — Patient and public partnership through Action, Collaboration and Trust
+description: PACT Lab connects lived experience with academic expertise and real-world health-system practice, across NUS Medicine and the National University Health System.
 nav: home
 ---
 
-{% include hero.html %}
-{% include section-services.html %}
-{% include section-model.html %}
-{% include section-governance.html %}
-{% include contact.html %}
+<header class="hero hero-simple" id="top">
+  <div class="wrap">
+    <div>
+      <h1>PACT Lab</h1>
+      <p class="expansion">Patient and public partnership through <b>A</b>ction, <b>C</b>ollaboration and <b>T</b>rust</p>
+      <p class="lede">Bringing lived experience, academic rigour and health-system action together to improve healthcare research and services.</p>
+      <p class="hero-inst">A joint initiative of the <a href="https://medicine.nus.edu.sg/cbme/">Centre for Biomedical Ethics</a>, NUS Yong Loo Lin School of Medicine, and the <a href="https://www.nuhs.edu.sg/">Patient Advocacy and Support Office</a>, National University Health System.</p>
+    </div>
+  </div>
+</header>
+
+<section class="doorband">
+  <div class="wrap">
+    <div class="doors">
+      <article class="door">
+        <p class="eyebrow">Patients, families, caregivers and the public</p>
+        <h2>Take part in shaping research and services</h2>
+        <p>Your experience can guide what is studied, how it is done, and what changes in practice. You do not need any previous experience of research or of patient and public participation.</p>
+        <p><a class="btn" href="#interest">Indicate your interest</a></p>
+      </article>
+      <article class="door">
+        <p class="eyebrow">Researchers, clinicians and service teams</p>
+        <h2>Support for involving patients and the public in your work</h2>
+        <p>PACT Lab will connect you with patients, families, caregivers and members of the public, and provide practical guidance, methods and training for working together well.</p>
+        <p><a class="btn" href="#interest">Get in touch</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">PACT Lab</p>
+      <h2>Participation, meaningfully and systematically</h2>
+    </div>
+    <div class="introcopy">
+      <p>We are building an ecosystem where patients, families, caregivers, and members of the public can participate meaningfully and systematically in healthcare research and service transformation.</p>
+      <p>PACT Lab will connect lived experience with academic expertise and real-world health-system practice. Through this partnership, we aim to strengthen the relevance, accessibility and impact of research and healthcare improvement.</p>
+    </div>
+  </div>
+</section>
+
+<section class="tinted" id="why">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">Why PACT Lab?</p>
+      <h2>Knowledge grounded in lived experience</h2>
+      <p>Patients, families, caregivers and members of the public bring knowledge grounded in lived experience. Their perspectives can guide teams to:</p>
+    </div>
+    <ul class="whylist">
+      <li>Identify priorities that matter to people and communities</li>
+      <li>Shape research questions and service design</li>
+      <li>Improve feasibility, accessibility and inclusion</li>
+      <li>Interpret findings in ways that reflect real-world experience</li>
+      <li>Ground the implementation and evaluation of change</li>
+    </ul>
+    <p class="whyclose">PACT Lab is being established to provide a shared platform for meaningful and sustainable partnership, supported by common standards, practical methods, appropriate remuneration, capability-building and evaluation.</p>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">What PACT Lab will do</p>
+      <h2>Five areas of work</h2>
+    </div>
+    <div class="svc">
+      <article>
+        <h3>Support meaningful partnerships</h3>
+        <p>Connect patients, families, caregivers and members of the public with research and service-transformation teams.</p>
+      </article>
+      <article>
+        <h3>Develop shared standards and methods</h3>
+        <p>Create practical guidance covering participation, accessibility, remuneration, project support and evaluation.</p>
+      </article>
+      <article>
+        <h3>Build capability</h3>
+        <p>Equip patient and public partners, researchers, clinicians and service-transformation teams with the knowledge and skills to work together effectively.</p>
+      </article>
+      <article>
+        <h3>Support demonstrator projects</h3>
+        <p>Work intensively with selected healthcare research and service-transformation projects to test and improve the PACT Lab model.</p>
+      </article>
+      <article>
+        <h3>Generate and share learning</h3>
+        <p>Evaluate how partnership influences decisions, participant experiences, research, healthcare services and organisational practice.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="tinted" id="now">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">Where are we now?</p>
+      <h2>Establishing the foundations</h2>
+      <p>PACT Lab is currently establishing the infrastructure needed to support meaningful, inclusive and sustainable patient and public partnership. Our initial work includes:</p>
+    </div>
+    <ul class="nowlist">
+      <li>Establishing the governance and operating model</li>
+      <li>Recruiting the core team</li>
+      <li>Mapping existing participation activities, capabilities, networks and gaps</li>
+      <li>Developing participation, remuneration and accessibility principles</li>
+      <li>Forming a Patient and Public Leadership Network</li>
+      <li>Developing practical tools and training</li>
+      <li>Identifying initial research and service-transformation demonstrators</li>
+      <li>Establishing an evaluation framework to understand experience, influence and impact</li>
+    </ul>
+  </div>
+</section>
+
+{%- assign today = site.time | date: "%Y%m%d" -%}
+{%- assign shown = 0 -%}
+{%- assign sorted = site.events | sort: "date" -%}
+{%- for e in sorted -%}
+  {%- assign d = e.date | date: "%Y%m%d" -%}
+  {%- if d >= today and shown == 0 -%}
+    {%- assign shown = 1 -%}
+<section id="nextevent">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">Upcoming event</p>
+      <h2>{{ e.title }}</h2>
+    </div>
+    <div class="eventfeature">
+      <p class="eventwhen">{{ e.date | date: "%A %-d %B %Y" }}{% if e.time %} &middot; {{ e.time }}{% endif %}</p>
+      {%- if e.speaker %}<p class="eventwho"><strong>{{ e.speaker }}</strong>{% if e.affiliation %}, {{ e.affiliation }}{% endif %}</p>{%- endif %}
+      {%- if e.location %}<p class="eventwhere">{{ e.location }}</p>{%- endif %}
+      {%- if e.blurb %}<p>{{ e.blurb }}</p>{%- endif %}
+      <p class="eventcta">
+        {%- if e.registration and e.registration != "" %}<a class="btn" href="{{ e.registration }}">{{ e.registration_label | default: "Register" }}</a> {% endif -%}
+        <a class="btn-quiet" href="{{ '/events/' | relative_url }}">All events &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+  {%- endif -%}
+{%- endfor -%}
+
+<section class="tinted" id="interest">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">Indicate your interest</p>
+      <h2>Participate, collaborate and learn with us</h2>
+      <p>We welcome interest from patients, family members, caregivers, members of the public, researchers, clinicians, educators, service-transformation teams and community partners. You do not need previous experience in patient and public participation. Where possible, PACT Lab will provide clear roles, preparation and appropriate support. As the model develops, we will share opportunities to participate, collaborate and learn with us.</p>
+    </div>
+
+    <div class="enqform" id="interestform">
+      <p class="enqintro">Complete what applies. The button opens a pre-addressed email from your own email programme, with your answers set out. Nothing is sent until you send it.</p>
+
+      <label class="enqlabel" for="i_name">Name</label>
+      <input id="i_name" class="enqfield" type="text" autocomplete="name">
+
+      <label class="enqlabel" for="i_email">Email address</label>
+      <input id="i_email" class="enqfield" type="email" autocomplete="email">
+
+      <label class="enqlabel" for="i_org">Organisation (optional)</label>
+      <input id="i_org" class="enqfield" type="text">
+
+      <p class="enqlabel">How would you like to participate? Select all that apply.</p>
+      <div class="checkset">
+        <label><input type="checkbox" class="i_how" value="Contribute as a patient, family, caregiver or public partner"> Contribute as a patient, family, caregiver or public partner</label>
+        <label><input type="checkbox" class="i_how" value="Seek support for a research project"> Seek support for a research project</label>
+        <label><input type="checkbox" class="i_how" value="Seek support for a service transformation project"> Seek support for a service transformation project</label>
+        <label><input type="checkbox" class="i_how" value="Participate in training or capability-building"> Participate in training or capability-building</label>
+        <label><input type="checkbox" class="i_how" value="Explore an institutional or community partnership"> Explore an institutional or community partnership</label>
+        <label><input type="checkbox" class="i_how" value="Receive updates about PACT Lab"> Receive updates about PACT Lab</label>
+      </div>
+
+      <label class="enqlabel" for="i_detail">Please tell us briefly about your interest, experience or project (optional)</label>
+      <textarea id="i_detail" class="enqfield" rows="4"></textarea>
+
+      <a class="btn" id="i_send" href="mailto:yuxinliu@nus.edu.sg">Indicate my interest</a>
+      <p class="enqnote">Your information will be handled in accordance with the applicable NUS and NUHS privacy policies. Indicating interest does not create an obligation to participate or guarantee placement in a project or network. If the button does not open your email programme, write to <a href="mailto:yuxinliu@nus.edu.sg">yuxinliu@nus.edu.sg</a> with the same information.</p>
+    </div>
+  </div>
+</section>
+
+<section id="leadership">
+  <div class="wrap">
+    <div class="sechead">
+      <p class="eyebrow">Leadership</p>
+      <h2>PACT Lab is co-led by</h2>
+    </div>
+    <div class="res">
+      <div>
+        <h3>Associate Professor Brian D. Earp</h3>
+        <p>Associate Professor, Centre for Biomedical Ethics, NUS Yong Loo Lin School of Medicine.</p>
+      </div>
+      <div>
+        <h3>Ms Soh Lai Yee</h3>
+        <p>Group Chief Patient Officer, National University Health System; Director, Patient Advocacy and Support Office.</p>
+      </div>
+    </div>
+    <p class="leadnote">The Co-Directors will be supported by a Steering Committee comprising representatives from NUS Medicine, NUHS, and patient and public partners, and by a Patient and Public Leadership Network that will help shape PACT Lab's strategy and contribute to selected research and service-transformation projects.</p>
+    <p class="govmore"><a class="btn-quiet" href="{{ '/people/' | relative_url }}">People &rarr;</a></p>
+  </div>
+</section>
+
+<script>
+(function(){
+  var btn = document.getElementById('i_send');
+  if(!btn) return;
+  function val(id){ var el=document.getElementById(id); return el ? el.value.trim() : ''; }
+  function build(){
+    var how = [];
+    var boxes = document.querySelectorAll('.i_how');
+    for (var i=0;i<boxes.length;i++){ if(boxes[i].checked){ how.push('- ' + boxes[i].value); } }
+    var lines = [];
+    lines.push('Name: ' + (val('i_name') || '(not given)'));
+    lines.push('Email: ' + (val('i_email') || '(not given)'));
+    lines.push('Organisation: ' + (val('i_org') || '(none)'));
+    lines.push('');
+    lines.push('How I would like to participate:');
+    lines.push(how.length ? how.join('\n') : '- (not indicated)');
+    lines.push('');
+    lines.push('About my interest, experience or project:');
+    lines.push(val('i_detail') || '(nothing added)');
+    return lines.join('\n');
+  }
+  btn.addEventListener('click', function(){
+    btn.setAttribute('href', 'mailto:yuxinliu@nus.edu.sg?subject=' +
+      encodeURIComponent('PACT Lab — expression of interest') +
+      '&body=' + encodeURIComponent(build()));
+  });
+})();
+</script>
