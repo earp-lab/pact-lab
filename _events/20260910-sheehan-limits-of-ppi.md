@@ -38,7 +38,7 @@ Attendance is free, with registration required.
 
 ## The response
 
-**A/Prof Michael Dunn** will respond. Michael Dunn is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and an Associate Faculty member at the Ethox Centre, Oxford, where he worked for over a decade. His research integrates philosophical, legal, and qualitative methods, with particular attention to people at the margins of society and to the nature and purpose of bioethical inquiry.
+**Michael Dunn** will respond. Michael Dunn is Associate Professor and Director of Education at the Centre for Biomedical Ethics, and an Associate Faculty member at the Ethox Centre, Oxford, where he worked for over a decade. His research integrates philosophical, legal, and qualitative methods, with particular attention to people at the margins of society and to the nature and purpose of bioethical inquiry.
 
 ## The second talk
 
