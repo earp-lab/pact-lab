@@ -307,6 +307,14 @@
     color:var(--ink-soft);margin:20px 0 10px;
   }
   .pactnote{margin:0 0 22px}
+  /* Events poster */
+  .eventposter {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px auto;
+  }
 
   /* Why-involve block inside the opening column */
   .herowhy{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
