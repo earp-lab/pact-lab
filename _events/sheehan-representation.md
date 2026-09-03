@@ -27,8 +27,7 @@ Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford
 
 ## The first talk
 
-"The nature, role, and limits of PPI" is on Thursday 10 September at Shaw Foundation Alumni House. That one is open to the public, and registration is free.
-
-This is the second event in Professor Mark Sheehan's talks on PPIE. The first event is titled "The nature, role, and limits of PPI", scheduled to take place on Thursday 10 September at Shaw Foundation Alumni House. That talk is open to the public. Attendance is free, with registration required. See more details at https://pact-lab.sg/events/sheehan-limits-of-ppi/ 
+This is the second event in Professor Mark Sheehan's talks on PPIE. The first event is titled "The nature, role, and limits of PPI", scheduled to take place on Thursday 10 September at Shaw Foundation Alumni House. That talk is open to the public. 
+Attendance is free, with registration required. See more details at https://pact-lab.sg/events/sheehan-limits-of-ppi/ 
 
 
