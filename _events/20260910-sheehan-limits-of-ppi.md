@@ -41,4 +41,4 @@ Attendance is free, with registration required.
 
 ## The second talk
 
-Professor Mark Sheehan will deliver a second talk on PPIE titled "Who and how do PPI contributors represent?" on Friday 11 September. This talk will be internal to the Centre for Biomedical Ethics.
+Professor Mark Sheehan will deliver a second talk on PPIE titled "Who and how do PPI contributors represent?" on Friday 11 September. This talk will be internal to the Centre for Biomedical Ethics. See more details at https://pact-lab.sg/events/20260911-sheehan-representation/
