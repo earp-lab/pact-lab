@@ -7,6 +7,8 @@ time: "1:00-2:30pm"
 location: "Internal to Centre for Biomedical Ethics"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab."
 blurb: "An internal seminar for the Centre for Biomedical Ethics. Not open to the public. A standalone paper applying distinctions from political philosophy to patient and public involvement."
+registration: ""
+registration_note: "In house event; no registration required"
 speakers:
   - name: "Mark Sheehan"
     photo: "people/mark-sheehan.jpg"
@@ -26,6 +28,6 @@ Mark Sheehan is Professor of Bioethics at the Ethox Centre, University of Oxford
 ## The first talk
 
 This is the second event in Professor Mark Sheehan's talks on PPIE. The first event is titled "The nature, role, and limits of PPI", scheduled to take place on Thursday 10 September at Shaw Foundation Alumni House. That talk is open to the public. 
-Attendance is free, with registration required. See more details at https://pact-lab.sg/events/sheehan-limits-of-ppi/ 
+Attendance is free, with registration required. See more details at https://pact-lab.sg/events/20260910-sheehan-limits-of-ppi/ 
 
 
