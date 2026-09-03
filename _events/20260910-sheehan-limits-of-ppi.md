@@ -20,9 +20,8 @@ speakers:
     role: "Respondent"
     affiliation: "Associate Professor and Director of Education, Centre for Biomedical Ethics, NUS Medicine"
     profile: "https://medicine.nus.edu.sg/cbme/people_uri/michael-dunn/"
----
-
 poster: "event_flyers/20260910-sheehan-limits-of-ppi-poster.png"
+---
 
 ## About the talk
 
