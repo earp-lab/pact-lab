@@ -8,7 +8,7 @@ location: "Internal to Centre for Biomedical Ethics"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab."
 blurb: "An internal seminar for the Centre for Biomedical Ethics. Not open to the public. A standalone paper applying distinctions from political philosophy to patient and public involvement."
 registration: ""
-registration_note: ""
+registration_note: "In house event; no registration required"
 speakers:
   - name: "Mark Sheehan"
     photo: "people/mark-sheehan.jpg"
