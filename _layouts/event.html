@@ -53,15 +53,10 @@ layout: default
 {%- endif %}
 
 <section>
-<div class="wrap">
-{%- if page.poster and page.poster != "" %}
-<div class="eventposter-wrap">
-  <img
-    class="eventposter"
-    src="{{ '/assets/images/' | append: page.poster | relative_url }}"
-    alt="Poster for {{ page.title }}">
-</div>
-{%- endif %}
-<div class="eventbody">
-{{ content }}
-</div>
+  <div class="wrap">
+    <div class="eventbody">
+      {{ content }}
+    </div>
+    <p class="backlink"><a href="{{ '/events/' | relative_url }}">&larr; All events</a></p>
+  </div>
+</section>
