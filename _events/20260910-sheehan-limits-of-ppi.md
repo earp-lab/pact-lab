@@ -7,7 +7,7 @@ time: "12:30–2:00pm"
 location: "Shaw Foundation Alumni House, Sesame Room, 11 Kent Ridge Drive, Singapore 119244"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab. Open to researchers, clinicians, patient partners, and members of the public."
 blurb: "Open to researchers, clinicians, patient partners, and members of the public. Free, registration required. What involvement is for, and when and for which kinds of research there is no need or requirement to do it. With a response from A/Prof Michael Dunn."
-registration: "" <!--https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xu-lWwkxd06Fvc_rDTR-gvofkojw0gBAmRbQBoyAuoJUMUFOSTRXTEQzNDdRRkE0TURRU0xaREtOUS4u&origin=QRCode-->
+registration: "" #https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xu-lWwkxd06Fvc_rDTR-gvofkojw0gBAmRbQBoyAuoJUMUFOSTRXTEQzNDdRRkE0TURRU0xaREtOUS4u&origin=QRCode
 registration_label: "Register for free [event closed]"
 speakers:
   - name: "Mark Sheehan"
