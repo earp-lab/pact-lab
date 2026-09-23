@@ -4,7 +4,7 @@ speaker: "Lucy Frith, Angela Ballantyne, Sebastian Porsdam Mann, Alessandro Spar
 date: 2026-10-13
 time: "9:30am-3:30pm"
 location: "Medicine+Science Library, 11 Lower Kent Ridge Rd, Singapore 119083"
-host: "Hosted by the Centre for Biomedical Ethics and PACT Lab."
+host: "Hosted by the Centre for Biomedical Ethics, PACT Lab, and CREST-SG."
 blurb: "Foundations in patient & public involvement and engagement, and a critical look at how Al is reshaping who gets to participate in research -
 for clinicians, researchers, and clinician-scientists."
 registration: ""
