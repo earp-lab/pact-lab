@@ -34,17 +34,25 @@ speakers:
 
 # About the event
 
+## Registration & Coffee ##
+
+9:00 AM - 9:30 AM
+
 ## Foundational Principles and Best Practice ##
 
-MORNING • 9:30-12:30 PM
+9:30 AM - 12:30 PM
 
 Prof Lucy Frith (University of Manchester) • Prof Angela Ballantyne (University of Otago) 
 
 What PPIE is really for, whose voices get included or excluded, and how to build genuine involvement - not tokenism - into a study from design through dissemination. Case-based, with small-group work throughout.
 
+## Lunch provided ##
+
+12:30PM - 1:30PM
+
 ## Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
 
-AFTERNOON • 1:30-3:30 PM
+1:30 PM - 3:30 PM
 
 Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio (A*STAR) • chaired by Sankalpa Ghose (NUS) 
 
