@@ -4,7 +4,7 @@ date: 2026-08-22
 time: "9:30am - 1:00pm"
 location: "Centre for Healthcare Innovation, 18 Jln Tan Tock Seng, Singapore 308443"
 blurb: "A closed session with members of the public, reviewing survey materials and taking part in focus groups for the SHAPES P4 study."
-registration: "By invitation only."
+registration_note: "By invitation only."
 ---
 
 ## The Patient Co-Pilot: Exploring Public Views of an AI Preference Tool (P4)
