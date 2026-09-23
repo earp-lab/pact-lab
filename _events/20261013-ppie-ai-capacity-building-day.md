@@ -49,7 +49,7 @@ AFTERNOON • 1:30-3:30 PM
 Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio (A*STAR) • chaired by Sankalpa Ghose (NUS) 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
-# The speaker
+## The speaker
 
 Lucy Frith is Professor of Bioethics and Health Research, Centre for Social Ethics and Policy, University of Manchester. She conducts research at the interface of bioethics and social science with research interests in: empirical bioethics; reproductive technologies; organisational ethics; public involvement in healthcare; and the use of evidence in practice and policy. She is principal investigator on the UKRI ESRC funded project ConnecteDNA that is exploring how people involved in donor conception both use and are impacted by the rise in online DNA testing, and the UKRI AHRC Reset Ethics Project that explored the ethical issues raised by managing non-Covid paediatric and maternity care during the Covid pandemic.
 
