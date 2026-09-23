@@ -1,12 +1,13 @@
 ---
-title: "tbd"
-speaker: "tbd"
-affiliation: "tbd"
+title: "PPIE & AI: A Capacity-Building Day"
+speaker: "Foundational Principles and Best Practice"
+affiliation: ""
 date: 2026-10-13
-time: "tbd"
-location: "tbd"
+time: "9:30am-3:30pm"
+location: "Medicine+Science Library, 11 Lower Kent Ridge Rd, Singapore 119083"
 host: "Hosted by the Centre for Biomedical Ethics and PACT Lab."
-blurb: "tbd"
+blurb: "Foundations in patient & public involvement and engagement, and a critical look at how Al is reshaping who gets to participate in research -
+for clinicians, researchers, and clinician-scientists."
 registration: ""
 registration_note: ""
 speakers:
