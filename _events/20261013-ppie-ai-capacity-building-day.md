@@ -46,7 +46,7 @@ Prof Lucy Frith (University of Manchester) • Prof Angela Ballantyne (Universit
 
 What PPIE is really for, whose voices get included or excluded, and how to build genuine involvement - not tokenism - into a study from design through dissemination. Case-based, with small-group work throughout.
 
-## Lunch provided ##
+## Lunch ##
 
 12:30PM - 1:30PM
 
