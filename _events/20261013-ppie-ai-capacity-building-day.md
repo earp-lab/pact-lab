@@ -7,7 +7,7 @@ location: "Collaboration Space 2-3 (Level 1), NUS Medicine+Science Library, 11 L
 host: "Hosted by the Centre for Biomedical Ethics, PACT Lab, and CREST-SG."
 blurb: "Foundations in patient & public involvement and engagement, and a critical look at how Al is reshaping who gets to participate in research -
 for clinicians, researchers, and clinician-scientists."
-registration: "https://medicine.nus.edu.sg/cbme/ppie-ai-a-capacity-building-day/registration/"
+registration: "https://medicine.nus.edu.sg/cbme/ppie-ai-a-capacity-building-day/"
 registration_note: "Register for free"
 speakers:
   - name: "Lucy Frith"
@@ -62,7 +62,7 @@ Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio 
 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
-##
+<hr class="solid">
 
 # The speakers
 
