@@ -3,12 +3,12 @@ title: "PPIE & AI: A Capacity-Building Day"
 speaker: "Lucy Frith, Angela Ballantyne, Sebastian Porsdam Mann, Alessandro Sparacio"
 date: 2026-10-13
 time: "9:30am-3:30pm"
-location: "Medicine+Science Library, 11 Lower Kent Ridge Rd, Singapore 119083"
+location: "Collaboration Space 2-3 (Level 1), NUS Medicine+Science Library, 11 Lower Kent Ridge Rd, Singapore 119083"
 host: "Hosted by the Centre for Biomedical Ethics, PACT Lab, and CREST-SG."
 blurb: "Foundations in patient & public involvement and engagement, and a critical look at how Al is reshaping who gets to participate in research -
 for clinicians, researchers, and clinician-scientists."
-registration: ""
-registration_note: "Register for free (details to follow)"
+registration: "https://medicine.nus.edu.sg/cbme/ppie-ai-a-capacity-building-day/registration/"
+registration_note: "Register for free"
 speakers:
   - name: "Lucy Frith"
     photo: "people/lucy-frith.jpg"
@@ -34,11 +34,15 @@ speakers:
 
 # About the event
 
+This workshop introduces the principles and practice of Patient and Public Involvement and Engagement (PPIE) in health and biomedical research. It also explores how artificial intelligence (AI) is changing the landscape of research participation.
+
+Participants will examine how meaningful involvement can strengthen research design, relevance, and impact while considering the emerging opportunities and ethical challenges associated with AI-enabled engagement. Through expert presentations, case studies, and discussions, the workshop will provide practical insights for researchers, clinicians, and healthcare professionals seeking to build capacity in PPIE and responsible innovation.
+
 ## Registration & Coffee ##
 
 9:00 AM - 9:30 AM
 
-## Foundational Principles and Best Practice ##
+## Morning Session: Foundational Principles and Best Practice ##
 
 9:30 AM - 12:30 PM
 
@@ -50,7 +54,7 @@ What PPIE is really for, whose voices get included or excluded, and how to build
 
 12:30PM - 1:30PM
 
-## Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
+## Afternoon Session: Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
 
 1:30 PM - 3:30 PM
 
@@ -58,7 +62,7 @@ Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio 
 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
-## The speakers
+# The speakers
 
 **Lucy Frith** is Professor of Bioethics and Health Research, Centre for Social Ethics and Policy, University of Manchester. She conducts research at the interface of bioethics and social science with research interests in: empirical bioethics; reproductive technologies; organisational ethics; public involvement in healthcare; and the use of evidence in practice and policy. She is principal investigator on the UKRI ESRC funded project ConnecteDNA that is exploring how people involved in donor conception both use and are impacted by the rise in online DNA testing, and the UKRI AHRC Reset Ethics Project that explored the ethical issues raised by managing non-Covid paediatric and maternity care during the Covid pandemic.
 
