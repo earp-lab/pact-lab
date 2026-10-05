@@ -42,7 +42,7 @@ Participants will examine how meaningful involvement can strengthen research des
 
 9:00 AM - 9:30 AM
 
-## Morning Session: Foundational Principles and Best Practice ##
+## Foundational Principles and Best Practice ##
 
 9:30 AM - 12:30 PM
 
@@ -54,7 +54,7 @@ What PPIE is really for, whose voices get included or excluded, and how to build
 
 12:30PM - 1:30PM
 
-## Afternoon Session: Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
+## Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
 
 1:30 PM - 3:30 PM
 
@@ -62,7 +62,7 @@ Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio 
 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
-## ##
+##
 # The speakers
 
 **Lucy Frith** is Professor of Bioethics and Health Research, Centre for Social Ethics and Policy, University of Manchester. She conducts research at the interface of bioethics and social science with research interests in: empirical bioethics; reproductive technologies; organisational ethics; public involvement in healthcare; and the use of evidence in practice and policy. She is principal investigator on the UKRI ESRC funded project ConnecteDNA that is exploring how people involved in donor conception both use and are impacted by the rise in online DNA testing, and the UKRI AHRC Reset Ethics Project that explored the ethical issues raised by managing non-Covid paediatric and maternity care during the Covid pandemic.
