@@ -62,7 +62,6 @@ Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio 
 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
-## ##
 
 # The speakers
 
