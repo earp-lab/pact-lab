@@ -38,11 +38,11 @@ This workshop introduces the principles and practice of Patient and Public Invol
 
 Participants will examine how meaningful involvement can strengthen research design, relevance, and impact while considering the emerging opportunities and ethical challenges associated with AI-enabled engagement. Through expert presentations, case studies, and discussions, the workshop will provide practical insights for researchers, clinicians, and healthcare professionals seeking to build capacity in PPIE and responsible innovation.
 
-## Registration & Coffee ##
+## Registration & Coffee
 
 9:00 AM - 9:30 AM
 
-## Foundational Principles and Best Practice ##
+## Foundational Principles and Best Practice
 
 9:30 AM - 12:30 PM
 
@@ -50,11 +50,11 @@ Prof Lucy Frith (University of Manchester) • Prof Angela Ballantyne (Universit
 
 What PPIE is really for, whose voices get included or excluded, and how to build genuine involvement - not tokenism - into a study from design through dissemination. Case-based, with small-group work throughout.
 
-## Lunch ##
+## Lunch
 
 12:30PM - 1:30PM
 
-## Should Al Simulate Patients and the Public? Can It Help Citizen Science? ##
+## Should Al Simulate Patients and the Public? Can It Help Citizen Science?
 
 1:30 PM - 3:30 PM
 
@@ -62,6 +62,7 @@ Dr Sebastian Porsdam Mann (University of Copenhagen) • Dr Alessandro Sparacio 
 
 A closer look at two open questions for PPIE: whether Al- simulated patient and public personas can genuinely stand in for real voices in research validation, and whether Al can meaningfully expand citizen science and participation — without tipping into "vibe scholarship." Includes a case-based small-group activity.
 
+##
 
 # The speakers
 
