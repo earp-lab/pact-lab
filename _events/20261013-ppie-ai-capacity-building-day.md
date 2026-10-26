@@ -7,8 +7,8 @@ location: "Collaboration Space 2-3 (Level 1), NUS Medicine+Science Library, 11 L
 host: "Hosted by the Centre for Biomedical Ethics, PACT Lab, and CREST-SG."
 blurb: "Foundations in patient & public involvement and engagement, and a critical look at how Al is reshaping who gets to participate in research -
 for clinicians, researchers, and clinician-scientists."
-registration: "https://medicine.nus.edu.sg/cbme/ppie-ai-a-capacity-building-day/"
-registration_note: "Register for free"
+registration: "" #https://medicine.nus.edu.sg/cbme/ppie-ai-a-capacity-building-day/
+registration_note: "Register for free [event closed]"
 speakers:
   - name: "Lucy Frith"
     photo: "people/lucy-frith.jpg"
